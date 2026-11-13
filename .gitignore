@@ -1,0 +1,15 @@
+# File phát hành nằm trong GitHub Releases, không commit
+*.dmg
+*.pkg
+*.exe
+*.msi
+*.AppImage
+*.zip
+# Khoá ký / bí mật
+*.p12
+*.pem
+*.key
+*_ed25519*
+.env
+.env.*
+.DS_Store

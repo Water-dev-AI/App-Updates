@@ -1,0 +1,11 @@
+{
+  "app": "TEN_APP",
+  "version": "0.0.0",
+  "build": 0,
+  "pub_date": "YYYY-MM-DDTHH:mm:ss+07:00",
+  "notes": "Nội dung thay đổi",
+  "platforms": {
+    "darwin-universal": { "url": "", "sha256": "", "signature": "" },
+    "windows-x86_64":   { "url": "", "sha256": "", "signature": "" }
+  }
+}
