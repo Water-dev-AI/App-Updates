@@ -23,5 +23,12 @@ trong repo `Water-dev-AI/Claude-Project-all`. Trả lời người dùng bằng 
 4. Báo cáo: version, link Release, đã kiểm tra cập nhật từ bản cũ chưa (chưa thì nói rõ).
 5. Ghi lại phát hành vào `docs/CHANGELOG.md` + `docs/PROGRESS.md` của project trong repo Claude-Project-all.
 
+## Phát hành tự động và nhiều app cùng lúc
+- Bình thường **không** phát hành tay: GitHub Actions của `Claude-Project-all` (`.github/workflows/<ten-app>.yml`) tự tạo Release,
+  ghi `apps/<ten-app>/appcast.xml`, `CHANGELOG.md` và dòng của app trong bảng README. Quy trình: `QUY_TRINH_DUA_APP_LEN_ONLINE.md`
+  ở repo đó.
+- Mỗi app chỉ sửa `apps/<ten-app>/` và **dòng của app mình** trong bảng README; không sửa thư mục/dòng của app khác.
+- Push bị từ chối vì app khác vừa phát hành → `git pull --rebase` rồi push lại; không force push.
+
 ## Thêm app mới
 Copy `apps/_template` → `apps/<ten-app>` (cùng tên với `projects/<ten-app>` bên Claude-Project-all), sửa tên app, thêm dòng vào bảng README.
