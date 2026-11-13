@@ -1,5 +1,14 @@
 # CHANGELOG — Water Notif
 
+## 0.10.1 (build 26) — 2026-11-13
+
+### Thử nghiệm cập nhật một chạm
+
+- Bản phát hành thử để kiểm tra luồng **Kiểm tra cập nhật** từ 0.10.0: tải, kiểm tra chữ ký, thay app và mở lại.
+- Không thay đổi chức năng; dữ liệu task, settings và quyền giữ nguyên.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-notif-v0.10.1/water-notif-0.10.1.zip
+
 ## 0.10.0 (build 25) — 2026-11-13
 
 ### Cập nhật một chạm
