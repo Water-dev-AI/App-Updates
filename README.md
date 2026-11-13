@@ -38,6 +38,10 @@ App-Updates/
 3. Thêm mục mới vào đầu `appcast.xml` / cập nhật `latest.json`, ghi `CHANGELOG.md` → commit → push.
 4. Kiểm tra: mở app bản cũ → Check for Updates → thấy bản mới → cập nhật thành công, dữ liệu còn nguyên.
 
+## Sao lưu
+Repo này (kể cả file cài đặt trong Releases) được sao lưu tự động mỗi giờ sang Google Drive,
+thư mục `GitHub-Backup/App-Updates/`. Script và hướng dẫn: `tools/google-drive-backup/` trong repo Claude-Project-all.
+
 ## Ứng dụng có trong repo
 
 | App | Nền tảng | Version mới nhất | Kiểu updater |
