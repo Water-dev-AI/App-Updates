@@ -52,3 +52,4 @@ thư mục `GitHub-Backup/App-Updates/`. Script và hướng dẫn: `tools/googl
 | [water-image-generator](apps/water-image-generator/) | macOS 14+ và bản macOS 12+ (Apple Silicon + Intel) | 2.10.1 (40) | Sparkle 2 |
 | [water-tool-autopublisher](apps/water-tool-autopublisher/) | macOS 13+ (Apple Silicon + Intel) | 2.10.0 (45) | Sparkle 2 |
 | [helium-bookmark-sync](apps/helium-bookmark-sync/) | Extension Helium/Chromium (macOS, Linux) | 1.0.0 | updater.sh + latest.json |
+| [worldmove-sync](apps/worldmove-sync/) | macOS 14+ (Apple Silicon) | 1.19.0 (113) | Sparkle 2 |

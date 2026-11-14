@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sparkle appcast cho WorldMove Sync. Bản mới nhất đặt TRÊN CÙNG. Được cập nhật tự động bởi
+     GitHub Actions của repo Claude-Project-all (projects/worldmove-sync). Không sửa tay chữ ký/length. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>WorldMove Sync</title>
+    <item>
+      <title>Version 1.19.0</title>
+      <pubDate>Sat, 14 Nov 2026 17:24:17 +0700</pubDate>
+      <sparkle:version>113</sparkle:version>
+      <sparkle:shortVersionString>1.19.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Added</h4>
+<ul>
+<li>Cập nhật một chạm (Sparkle 2): nút <strong>Kiểm tra cập nhật</strong> ở sidebar, menu ứng dụng và trang Cài đặt chung; tự kiểm tra mỗi ngày (bật/tắt được). Khi có bản mới, sidebar hiện "Có bản x.y.z · Cập nhật".</li>
+<li>Version và build hiển thị trong sidebar và trang Cài đặt chung. Version lấy từ một nguồn duy nhất là file <code>VERSION</code>.</li>
+</ul>
+<h4>Notes</h4>
+<ul>
+<li>Cập nhật chỉ thay app trong Applications; tài khoản, vault bảo mật, cookie phiên FastMove, lịch sử, backup và cấu hình giữ nguyên. Bundle ID giữ <code>vn.worldmove.sync</code>.</li>
+<li>Không đổi logic đồng bộ, Bridge vẫn v43.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.19.0/worldmove-sync-1.19.0.zip"
+        length="2901958"
+        type="application/octet-stream"
+        sparkle:edSignature="bbshD0C5MCBtl/SkErEA1u0IGwqFsFa/12vijc8pC+kWYg5SsWGrGpQvAWqG7VODGebVGDz0pP3XE15r2ZT0DA=="/>
+    </item>
+  </channel>
+</rss>
