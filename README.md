@@ -39,7 +39,7 @@ App-Updates/
 4. Kiểm tra: mở app bản cũ → Check for Updates → thấy bản mới → cập nhật thành công, dữ liệu còn nguyên.
 
 ## Sao lưu
-Repo này (kể cả file cài đặt trong Releases) được sao lưu tự động mỗi giờ sang Google Drive,
+Repo này (kể cả file cài đặt trong Releases) được sao lưu tự động 5 ngày một lần (khoảng 2 giờ sáng) sang Google Drive,
 thư mục `GitHub-Backup/App-Updates/`. Script và hướng dẫn: `tools/google-drive-backup/` trong repo Claude-Project-all.
 
 ## Ứng dụng có trong repo
