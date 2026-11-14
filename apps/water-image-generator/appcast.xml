@@ -5,6 +5,24 @@
   <channel>
     <title>WATER IMAGE GENERATOR</title>
     <item>
+      <title>Version 2.10.0</title>
+      <pubDate>Sat, 14 Nov 2026 12:42:50 +0700</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Sửa lỗi cài app sang máy khác (hoặc đặt app ở thư mục khác) thì mất prompt sẵn và không chạy được lô: prompt tạo ảnh và prompt sửa ảnh mặc định nay được đóng gói trong app. Khi <code>Workspace</code> chưa có <code>master-prompt.md</code>/<code>correction-prompt.md</code>, app tự tạo từ prompt mặc định.</li>
+<li>Thêm luật bắt buộc: <strong>mọi lá cờ Trung Quốc trong ảnh phải úa màu, nhạt</strong> (nền nâu đỏ xỉn, sao trắng ngà, không đỏ tươi/vàng tươi), áp dụng cho cả prompt tạo ảnh và prompt sửa ảnh.</li>
+<li>Prompt tùy chỉnh đang dùng không bị ghi đè: app chỉ nối thêm luật cờ Trung Quốc vào cuối một lần (nếu chưa có), sau khi sao lưu bản cũ thành <code>*.backup-&lt;thời gian&gt;.md</code> trong <code>Workspace</code>.</li>
+<li>Thêm nút <strong>Mặc định</strong> trong trình chỉnh sửa prompt để nạp lại prompt mặc định của app (chỉ ghi file khi bấm <strong>Lưu prompt</strong>).</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.10.0/water-image-generator-2.10.0.zip"
+        length="4114506"
+        type="application/octet-stream"
+        sparkle:edSignature="BldmFNdNfcR4BFiz5xO43Vb19ibj6Op7pyZXNFxyF+YxZ0GlPinAmnNOkDkWc07Q0KoscBcgKRJGqAYwV57cDA=="/>
+    </item>
+    <item>
       <title>Version 2.9.0</title>
       <pubDate>Sat, 14 Nov 2026 11:37:17 +0700</pubDate>
       <sparkle:version>38</sparkle:version>

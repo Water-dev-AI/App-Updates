@@ -49,5 +49,5 @@ thư mục `GitHub-Backup/App-Updates/`. Script và hướng dẫn: `tools/googl
 | [water-notif](apps/water-notif/) | macOS 13+ (Apple Silicon) | 0.10.1 (26) | Sparkle 2 |
 | [water-quick-copy](apps/water-quick-copy/) | macOS 13+ (Apple Silicon) | 1.1.0 (13) | Sparkle 2 |
 | [water-data-mirror](apps/water-data-mirror/) | macOS 13+ (Apple Silicon + Intel) | 1.7.0 (19) | Sparkle 2 |
-| [water-image-generator](apps/water-image-generator/) | macOS 14+ (Apple Silicon + Intel) | 2.9.0 (38) | Sparkle 2 |
+| [water-image-generator](apps/water-image-generator/) | macOS 14+ (Apple Silicon + Intel) | 2.10.0 (39) | Sparkle 2 |
 | [water-tool-autopublisher](apps/water-tool-autopublisher/) | macOS 13+ (Apple Silicon + Intel) | 2.10.0 (45) | Sparkle 2 |
