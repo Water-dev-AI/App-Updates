@@ -1,5 +1,13 @@
 # CHANGELOG — Water Notif
 
+## 0.10.2 (build 27) — 2026-11-14
+
+### Sửa lỗi
+
+- Hộp thoại **Snooze tùy chọn X ngày** (và Nhập/Xuất backup) không còn bị bảng menu bar che phía trên: app tạm đóng bảng khi mở hộp thoại, hộp thoại hiện ở giữa màn hình và nhận gõ ngay; đóng hộp thoại xong bảng tự mở lại.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-notif-v0.10.2/water-notif-0.10.2.zip
+
 ## 0.10.1 (build 26) — 2026-11-13
 
 ### Thử nghiệm cập nhật một chạm
