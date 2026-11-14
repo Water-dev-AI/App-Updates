@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sparkle appcast cho Water Tool Autopublisher. Bản mới nhất đặt TRÊN CÙNG. Được cập nhật tự động bởi
+     GitHub Actions của repo Claude-Project-all (projects/water-tool-autopublisher). Không sửa tay chữ ký/length. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Water Tool Autopublisher</title>
+    <item>
+      <title>Version 2.10.0</title>
+      <pubDate>Sat, 14 Nov 2026 11:39:52 +0700</pubDate>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Cập nhật một chạm</strong>: nút <strong>Kiểm tra cập nhật</strong> ở thanh bên, Cài đặt (mục *Phiên bản &amp; cập nhật*) và menu bar; tự kiểm tra mỗi ngày (có thể tắt).</li>
+<li>Khi có bản mới, thanh bên hiện <strong>Có bản x.y.z · Cập nhật</strong>; nếu app đang tạo/gửi lịch Facebook, việc khởi động lại để cài được hoãn tới khi xong.</li>
+<li>Cập nhật chỉ thay app; dữ liệu, bài đã lên lịch và phiên đăng nhập Facebook được giữ nguyên.</li>
+<li>Bản build universal (Apple Silicon + Intel), phát hành tự động qua GitHub Actions.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-tool-autopublisher-v2.10.0/water-tool-autopublisher-2.10.0.zip"
+        length="7287186"
+        type="application/octet-stream"
+        sparkle:edSignature="NqFvr1551+wPNXASGZeU9ykF0nsxkt8/XGspAaNJMH4CSCzV1obxtFuj1rN7w5brqgR/1Phsh4CHY+NSMr/rDg=="/>
+    </item>
+  </channel>
+</rss>
