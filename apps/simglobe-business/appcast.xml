@@ -5,6 +5,22 @@
   <channel>
     <title>SIMGLOBE QUẢN LÝ KINH DOANH</title>
     <item>
+      <title>Version 1.1.1</title>
+      <pubDate>Sat, 14 Nov 2026 20:30:53 +0700</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Bản thử <strong>cập nhật một chạm</strong>: không đổi chức năng. Nếu bạn thấy thông báo này trong cửa sổ cập nhật, nghĩa là bấm <strong>Cập nhật</strong> đã hoạt động.</li>
+<li>Sau khi cập nhật, app mở lại và giữ nguyên tài khoản, mật khẩu Keychain, link Sheet, tỷ giá, snapshot và log.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/simglobe-business-v1.1.1/simglobe-business-1.1.1.zip"
+        length="3037186"
+        type="application/octet-stream"
+        sparkle:edSignature="ifhvNPJgnu8j0YkUOlnB38H+jXU+iCAZWPhNXDNsn4CS7dIdlMWIlr48NIz0JFh6XHApi2dU3Vd5ZIms2MAYBg=="/>
+    </item>
+    <item>
       <title>Version 1.1.0</title>
       <pubDate>Sat, 14 Nov 2026 20:18:16 +0700</pubDate>
       <sparkle:version>2</sparkle:version>

@@ -1,5 +1,12 @@
 # CHANGELOG — SIMGLOBE QUẢN LÝ KINH DOANH
 
+## 1.1.1 (build 3) — 2026-11-14
+
+- Bản thử **cập nhật một chạm**: không đổi chức năng. Nếu bạn thấy thông báo này trong cửa sổ cập nhật, nghĩa là bấm **Cập nhật** đã hoạt động.
+- Sau khi cập nhật, app mở lại và giữ nguyên tài khoản, mật khẩu Keychain, link Sheet, tỷ giá, snapshot và log.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/simglobe-business-v1.1.1/simglobe-business-1.1.1.zip
+
 ## 1.1.0 (build 2) — 2026-11-14
 
 - Thêm **cập nhật một chạm**: Cài đặt → Phiên bản & cập nhật → **Kiểm tra cập nhật** (hoặc menu SIMGLOBE → Kiểm tra cập nhật…); app tự kiểm tra mỗi ngày, có thể tắt.
