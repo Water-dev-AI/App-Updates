@@ -54,3 +54,4 @@ thư mục `GitHub-Backup/App-Updates/`. Script và hướng dẫn: `tools/googl
 | [helium-bookmark-sync](apps/helium-bookmark-sync/) | Extension Helium/Chromium (macOS, Linux) | 1.0.1 | updater.sh + latest.json |
 | [worldmove-sync](apps/worldmove-sync/) | macOS 14+ (Apple Silicon) | 1.19.0 (113) | Sparkle 2 |
 | [water-bar](apps/water-bar/) | macOS 13+ (Universal) | 1.3.1 (22) | Sparkle 2 |
+| [simglobe-business](apps/simglobe-business/) | macOS 14+ (Apple Silicon + Intel) | 1.1.0 (2) | Sparkle 2 |

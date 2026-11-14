@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sparkle appcast cho SIMGLOBE QUẢN LÝ KINH DOANH. Bản mới nhất đặt TRÊN CÙNG. Được cập nhật tự động bởi
+     GitHub Actions của repo Claude-Project-all (projects/simglobe-business). Không sửa tay chữ ký/length. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>SIMGLOBE QUẢN LÝ KINH DOANH</title>
+    <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Sat, 14 Nov 2026 20:18:16 +0700</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Thêm <strong>cập nhật một chạm</strong>: Cài đặt → Phiên bản &amp; cập nhật → <strong>Kiểm tra cập nhật</strong> (hoặc menu SIMGLOBE → Kiểm tra cập nhật…); app tự kiểm tra mỗi ngày, có thể tắt.</li>
+<li>Hiển thị phiên bản app ở sidebar, trang Cài đặt và cửa sổ Settings; khi có bản mới hiện nhãn <strong>Có bản x.y.z · Cập nhật</strong>.</li>
+<li>Cập nhật chỉ thay app; tài khoản, mật khẩu trong Keychain, link Sheet, tỷ giá, snapshot và log giữ nguyên.</li>
+<li>Bản phát hành build universal (Apple Silicon + Intel) trên GitHub Actions, ký bằng cùng chứng chỉ cục bộ như trước để Keychain không hỏi lại.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/simglobe-business-v1.1.0/simglobe-business-1.1.0.zip"
+        length="3037176"
+        type="application/octet-stream"
+        sparkle:edSignature="NbwW/oi2bJVveXqQ7jaNymLCmIpTaVdYt8b9QgzwUsMILrORHLLXt7MG08zGcsG1zr20+Q6sLUYbjxwvk4dVDw=="/>
+    </item>
+  </channel>
+</rss>
