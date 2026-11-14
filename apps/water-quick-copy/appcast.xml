@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sparkle appcast cho WATER QUICK COPY. Bản mới nhất đặt TRÊN CÙNG. Được cập nhật tự động bởi
+     GitHub Actions của repo Claude-Project-all (projects/water-quick-copy). Không sửa tay chữ ký/length. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>WATER QUICK COPY</title>
+    <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Sat, 14 Nov 2026 10:52:51 +0700</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Cập nhật một chạm</h4>
+<ul>
+<li>Thêm Sparkle 2.10.1: nút <strong>Kiểm tra cập nhật</strong> ở chân popover; khi lần kiểm tra tự động tìm thấy bản mới, nút đổi thành <strong>Có bản x.y.z · Cập nhật</strong>.</li>
+<li>Cài đặt có tuỳ chọn <strong>Tự kiểm tra cập nhật (mỗi ngày)</strong>, mặc định bật; Cài đặt hiện cả version và build.</li>
+<li>Bản cập nhật tải từ GitHub Releases của <code>Water-dev-AI/App-Updates</code>, kiểm tra chữ ký EdDSA rồi mới thay app; dữ liệu clipboard, ảnh, backup và cài đặt giữ nguyên.</li>
+</ul>
+<h4>Quy trình</h4>
+<ul>
+<li>Mã nguồn đưa lên GitHub (<code>projects/water-quick-copy</code>); version chỉ sửa ở file <code>VERSION</code>.</li>
+<li>GitHub Actions tự test/build trên macOS mỗi lần push và tự phát hành khi <code>VERSION</code> trên <code>main</code> có version mới.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-quick-copy-v1.1.0/water-quick-copy-1.1.0.zip"
+        length="3171614"
+        type="application/octet-stream"
+        sparkle:edSignature="fOkw3fjMeA/60DMDjmRDQGqG6RK3I1U3DJYOA+FkPjTBIE45BzDqEF3UTQ4qNaCPSReJUz+GhPZxKocCkhdzDw=="/>
+    </item>
+  </channel>
+</rss>

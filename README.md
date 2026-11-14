@@ -47,3 +47,4 @@ thư mục `GitHub-Backup/App-Updates/`. Script và hướng dẫn: `tools/googl
 | App | Nền tảng | Version mới nhất | Kiểu updater |
 |-----|----------|------------------|--------------|
 | [water-notif](apps/water-notif/) | macOS 13+ (Apple Silicon) | 0.10.1 (26) | Sparkle 2 |
+| [water-quick-copy](apps/water-quick-copy/) | macOS 13+ (Apple Silicon) | 1.1.0 (13) | Sparkle 2 |
