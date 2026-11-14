@@ -1,5 +1,13 @@
 # CHANGELOG — WATER IMAGE GENERATOR
 
+## 2.10.1 (build 40) — 2026-11-14
+
+- Mỗi lần phát hành nay có **2 bản**: bản chính cho **macOS 14+** và bản **macOS 12+** cho máy cũ (đều chạy Apple Silicon + Intel), cùng nội dung và cùng version.
+- Bản macOS 12+ cũng có **cập nhật một chạm** (nút Kiểm tra cập nhật) qua feed riêng, nên chỉ nhận bản macOS 12+, không bị đẩy sang bản macOS 14+.
+- Gồm toàn bộ thay đổi của 2.10.0: prompt mặc định có sẵn trong app (cài sang máy khác không còn mất prompt) và luật cờ Trung Quốc úa màu, nhạt.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/tag/water-image-generator-v2.10.1
+
 ## 2.10.0 (build 39) — 2026-11-14
 
 - Sửa lỗi cài app sang máy khác (hoặc đặt app ở thư mục khác) thì mất prompt sẵn và không chạy được lô: prompt tạo ảnh và prompt sửa ảnh mặc định nay được đóng gói trong app. Khi `Workspace` chưa có `master-prompt.md`/`correction-prompt.md`, app tự tạo từ prompt mặc định.

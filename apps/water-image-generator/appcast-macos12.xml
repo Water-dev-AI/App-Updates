@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sparkle appcast cho WATER IMAGE GENERATOR (macOS 12+). Bản mới nhất đặt TRÊN CÙNG. Được cập nhật tự động bởi
+     GitHub Actions của repo Claude-Project-all (projects/water-image-generator). Không sửa tay chữ ký/length. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>WATER IMAGE GENERATOR (macOS 12+)</title>
+    <item>
+      <title>Version 2.10.1</title>
+      <pubDate>Sat, 14 Nov 2026 12:53:22 +0700</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>2.10.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Mỗi lần phát hành nay có <strong>2 bản</strong>: bản chính cho <strong>macOS 14+</strong> và bản <strong>macOS 12+</strong> cho máy cũ (đều chạy Apple Silicon + Intel), cùng nội dung và cùng version.</li>
+<li>Bản macOS 12+ cũng có <strong>cập nhật một chạm</strong> (nút Kiểm tra cập nhật) qua feed riêng, nên chỉ nhận bản macOS 12+, không bị đẩy sang bản macOS 14+.</li>
+<li>Gồm toàn bộ thay đổi của 2.10.0: prompt mặc định có sẵn trong app (cài sang máy khác không còn mất prompt) và luật cờ Trung Quốc úa màu, nhạt.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.10.1/water-image-generator-macos12-2.10.1.zip"
+        length="4144276"
+        type="application/octet-stream"
+        sparkle:edSignature="5fPIkJYU7CZirIoNiYvrR2RP9eKurfJMFYoJCWXNEdsxFsuo7avE6gOvkTKxyasMdf82R0VRNPRUSG79+bq8AQ=="/>
+    </item>
+  </channel>
+</rss>
