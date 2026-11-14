@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sparkle appcast cho Water Data Mirror. Bản mới nhất đặt TRÊN CÙNG. Được cập nhật tự động bởi
+     GitHub Actions của repo Claude-Project-all (projects/water-data-mirror). Không sửa tay chữ ký/length. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Water Data Mirror</title>
+    <item>
+      <title>Version 1.7.0</title>
+      <pubDate>Sat, 14 Nov 2026 11:07:54 +0700</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Thêm <strong>cập nhật một chạm</strong> (Sparkle 2): mục <strong>Kiểm tra cập nhật…</strong> trong menu bar và nút cùng tên trong cửa sổ Cài đặt.</li>
+<li>Thêm công tắc <strong>Tự kiểm tra cập nhật</strong> (mặc định bật, kiểm tra mỗi ngày). Khi có bản mới, menu hiện <strong>Có bản x.y.z · Cập nhật</strong> thay vì bật cửa sổ đè lên công việc.</li>
+<li>Cập nhật chỉ thay app; không đụng tới task, <code>settings.json</code>, nhật ký, nguồn hay đích mirror.</li>
+<li>Version/build lấy từ một nguồn duy nhất là file <code>VERSION</code>; bản phát hành được build, ký và đăng tự động bằng GitHub Actions.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-data-mirror-v1.7.0/water-data-mirror-1.7.0.zip"
+        length="3976138"
+        type="application/octet-stream"
+        sparkle:edSignature="jSjABpxp46NN5B+JSPuyLEbRa1s7jt1ChKtoo8e9WAosGmQkPNktSm0xeh+uoaZTJlQuP5t8sLRk3xfgY1BmCg=="/>
+    </item>
+  </channel>
+</rss>
