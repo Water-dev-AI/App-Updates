@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sparkle appcast cho WATER IMAGE GENERATOR. Bản mới nhất đặt TRÊN CÙNG. Được cập nhật tự động bởi
+     GitHub Actions của repo Claude-Project-all (projects/water-image-generator). Không sửa tay chữ ký/length. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>WATER IMAGE GENERATOR</title>
+    <item>
+      <title>Version 2.9.0</title>
+      <pubDate>Sat, 14 Nov 2026 11:37:17 +0700</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Thêm <strong>cập nhật một chạm</strong> (Sparkle 2): nút <strong>Kiểm tra cập nhật</strong> và công tắc <strong>Tự kiểm tra cập nhật</strong> ngay dưới tên app, mục <strong>Kiểm tra cập nhật…</strong> trong menu app. Khi có bản mới mà app đang làm việc nền, header hiện <strong>Có bản x.y.z · Cập nhật</strong> thay vì bật cửa sổ đè lên.</li>
+<li>Nút cập nhật bị khoá khi đang chạy lô, để việc cài bản mới (khởi động lại app) không cắt ngang shot.</li>
+<li>Cập nhật chỉ thay app; không đụng tới thư mục <code>Workspace</code> cạnh app (settings, prompt tùy chỉnh, run dở), phiên đăng nhập WebKit hay ảnh trong Downloads.</li>
+<li>Version/build lấy từ một nguồn duy nhất là file <code>VERSION</code>; bản phát hành được build Universal (Apple Silicon + Intel), ký và đăng tự động bằng GitHub Actions.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.9.0/water-image-generator-2.9.0.zip"
+        length="4107296"
+        type="application/octet-stream"
+        sparkle:edSignature="BSM5Ufr7IGNyZLsq+WuoRoH0HqP7iN+OibKAZpYckjLl5FSKxLDwVCBlBOjhTdJrOKXBy6QIMK4xTPlxf2UAAQ=="/>
+    </item>
+  </channel>
+</rss>
