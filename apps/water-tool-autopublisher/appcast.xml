@@ -5,6 +5,23 @@
   <channel>
     <title>Water Tool Autopublisher</title>
     <item>
+      <title>Version 2.10.1</title>
+      <pubDate>Sun, 15 Nov 2026 16:16:57 +0700</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>2.10.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Không còn đụng vào clipboard</strong>: khi điền caption vào Meta, app không ghi caption vào clipboard của macOS nữa, nên bạn không bị dán nhầm caption và trình quản lý clipboard không lưu caption.</li>
+<li>Caption được điền thẳng vào ô soạn bài. Nếu Meta không nhận, app dừng bài đó và báo lỗi thay vì gửi bài thiếu nội dung.</li>
+<li>Sau khi cập nhật, hãy chạy <strong>Kiểm tra tự động · không đăng</strong> một lần để chắc Meta nhận cách điền mới.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-tool-autopublisher-v2.10.1/water-tool-autopublisher-2.10.1.zip"
+        length="7279762"
+        type="application/octet-stream"
+        sparkle:edSignature="qegGeugw1TQ5a9VEjoroeDT8xo3VdtqXOpNGyEgUHQlWvMavNwtFcRHzkQ7mOPilmp51AtLKvQj4KiQK2qd1DA=="/>
+    </item>
+    <item>
       <title>Version 2.10.0</title>
       <pubDate>Sat, 14 Nov 2026 11:39:52 +0700</pubDate>
       <sparkle:version>45</sparkle:version>
