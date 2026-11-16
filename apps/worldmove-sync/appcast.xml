@@ -5,6 +5,31 @@
   <channel>
     <title>WorldMove Sync</title>
     <item>
+      <title>Version 1.20.0</title>
+      <pubDate>Mon, 16 Nov 2026 15:08:56 +0700</pubDate>
+      <sparkle:version>114</sparkle:version>
+      <sparkle:shortVersionString>1.20.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Changed</h4>
+<ul>
+<li>Giao diện làm việc mới, dễ theo dõi: mỗi thông báo gắn đúng một tab và chỉ hiện trong hộp của tab đó; mọi dòng thông báo có nhãn màu tên tab (ví dụ "Bảng giá › Gói THẾ GIỚI"). Daily Notice không còn gom thông báo APN; thông báo ESIM/SIM APN nằm ở tab ESIM APN/SIM APN.</li>
+<li>Thêm tab <strong>Hộp thông báo</strong> (đầu sidebar): toàn bộ thông báo của mọi tab, nhóm theo tab, có nút Mở tab và đánh dấu nhóm đã xử lý.</li>
+<li>Thanh trạng thái hiện ở mọi tab: đang chạy việc gì ở tab nào (kèm nút Mở tab và Dừng), tài khoản nào đang chờ CAPTCHA, tab khác còn bao nhiêu thông báo chờ.</li>
+<li>Mỗi tab có dòng "Trạng thái tab" riêng; trạng thái của tab này không còn bị tác vụ ở tab khác ghi đè. Banner "REALTIME · TOÀN APP" ở Cài đặt được thay bằng thanh trạng thái chung.</li>
+<li>Sidebar: huy hiệu số đếm theo mức (đỏ lỗi · cam cần xử lý · xanh dương đã tự cập nhật · xanh lá ổn), vòng quay ở tab đang chạy; dòng Bảng giá không kế thừa cảnh báo của các mục kiểm tra con.</li>
+<li>Thông báo macOS ghi thêm dòng tên tab sở hữu.</li>
+</ul>
+<h4>Notes</h4>
+<ul>
+<li>Không đổi logic đồng bộ, Bridge vẫn v43. Dữ liệu thông báo cũ giữ nguyên, chỉ đổi cách hiển thị.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.20.0/worldmove-sync-1.20.0.zip"
+        length="2999561"
+        type="application/octet-stream"
+        sparkle:edSignature="UeYzu9lFN5Ed7OXhzyHrAaBRKdLwPE3PdMTgCrot5OOoBdXxH7d14tYfqooQtTSaAuzLPeN3YogCQ0yvIrNmCw=="/>
+    </item>
+    <item>
       <title>Version 1.19.0</title>
       <pubDate>Sat, 14 Nov 2026 17:24:17 +0700</pubDate>
       <sparkle:version>113</sparkle:version>
