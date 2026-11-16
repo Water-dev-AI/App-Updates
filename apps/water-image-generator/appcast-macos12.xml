@@ -5,6 +5,24 @@
   <channel>
     <title>WATER IMAGE GENERATOR (macOS 12+)</title>
     <item>
+      <title>Version 2.11.0</title>
+      <pubDate>Mon, 16 Nov 2026 12:11:32 +0700</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Sửa QC đánh trượt nhầm ảnh lượt đầu có số liệu đúng.</strong> Nguyên nhân: QC so số theo chuỗi ký tự (<code>12,300</code> ≠ <code>12.300</code>, <code>42 600</code> bị tách đôi, <code>15%</code> ≠ "15 phần trăm", <code>12,3 nghìn tỷ</code> ≠ <code>12.300 tỷ</code>), coi nhãn đơn vị nhỏ cạnh số lớn là "chữ quá nhỏ", tính cả "tỷ/đồng" vào ngân sách 6 từ, so từ khoá có dấu sai (chữ "đ"). Báo lỗi đó khiến prompt sửa ảnh xoá luôn số — ảnh không chữ qua mọi kiểm tra OCR nên lại "đạt".</li>
+<li>QC nay so số theo giá trị, bỏ qua nhiễu OCR một chữ số, không tính đơn vị vào ngân sách nhãn, chỉ đánh lỗi chữ thật sự li ti, và <strong>thêm kiểm tra "Có số liệu cốt lõi"</strong>: đoạn tin có dữ liệu định lượng mà ảnh bị xoá hết số thì không còn được tính là đạt.</li>
+<li>Prompt sửa ảnh thêm luật <strong>GIỮ NGUYÊN SỐ LIỆU ĐÚNG</strong>: lỗi lề/vùng nguồn/cỡ chữ thì dời hoặc phóng to, không xoá số. Prompt tùy chỉnh đang dùng được nối luật này một lần (có sao lưu bản cũ).</li>
+<li><strong>AI dự phòng khi tạo ảnh thất bại</strong> (mặc định <strong>Gemini</strong>, chọn được ChatGPT/Gemini/Grok hoặc Không dùng trong Thiết lập): shot mà AI chính không trả ảnh sau số lần thử sẽ được làm tiếp bằng AI dự phòng ở vòng chạy lại, luân phiên giữa hai AI tới khi có ảnh hoặc bấm Dừng. Shot bị AI chính từ chối vì chính sách cũng được thử một lần bằng AI dự phòng; cả hai cùng từ chối mới bỏ qua.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.11.0/water-image-generator-macos12-2.11.0.zip"
+        length="4200959"
+        type="application/octet-stream"
+        sparkle:edSignature="qTVDi4T6R2dEX39Tpq3RsENQz7pl62YNAWs1YArzAK25X5Mq6GGKZ+XEoCqgOBAfbnU9DwVC+P+dl6ez6n55BQ=="/>
+    </item>
+    <item>
       <title>Version 2.10.1</title>
       <pubDate>Sat, 14 Nov 2026 12:53:22 +0700</pubDate>
       <sparkle:version>40</sparkle:version>

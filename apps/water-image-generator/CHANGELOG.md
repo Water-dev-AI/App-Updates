@@ -1,5 +1,14 @@
 # CHANGELOG — WATER IMAGE GENERATOR
 
+## 2.11.0 (build 41) — 2026-11-16
+
+- **Sửa QC đánh trượt nhầm ảnh lượt đầu có số liệu đúng.** Nguyên nhân: QC so số theo chuỗi ký tự (`12,300` ≠ `12.300`, `42 600` bị tách đôi, `15%` ≠ "15 phần trăm", `12,3 nghìn tỷ` ≠ `12.300 tỷ`), coi nhãn đơn vị nhỏ cạnh số lớn là "chữ quá nhỏ", tính cả "tỷ/đồng" vào ngân sách 6 từ, so từ khoá có dấu sai (chữ "đ"). Báo lỗi đó khiến prompt sửa ảnh xoá luôn số — ảnh không chữ qua mọi kiểm tra OCR nên lại "đạt".
+- QC nay so số theo giá trị, bỏ qua nhiễu OCR một chữ số, không tính đơn vị vào ngân sách nhãn, chỉ đánh lỗi chữ thật sự li ti, và **thêm kiểm tra "Có số liệu cốt lõi"**: đoạn tin có dữ liệu định lượng mà ảnh bị xoá hết số thì không còn được tính là đạt.
+- Prompt sửa ảnh thêm luật **GIỮ NGUYÊN SỐ LIỆU ĐÚNG**: lỗi lề/vùng nguồn/cỡ chữ thì dời hoặc phóng to, không xoá số. Prompt tùy chỉnh đang dùng được nối luật này một lần (có sao lưu bản cũ).
+- **AI dự phòng khi tạo ảnh thất bại** (mặc định **Gemini**, chọn được ChatGPT/Gemini/Grok hoặc Không dùng trong Thiết lập): shot mà AI chính không trả ảnh sau số lần thử sẽ được làm tiếp bằng AI dự phòng ở vòng chạy lại, luân phiên giữa hai AI tới khi có ảnh hoặc bấm Dừng. Shot bị AI chính từ chối vì chính sách cũng được thử một lần bằng AI dự phòng; cả hai cùng từ chối mới bỏ qua.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/tag/water-image-generator-v2.11.0
+
 ## 2.10.1 (build 40) — 2026-11-14
 
 - Mỗi lần phát hành nay có **2 bản**: bản chính cho **macOS 14+** và bản **macOS 12+** cho máy cũ (đều chạy Apple Silicon + Intel), cùng nội dung và cùng version.
