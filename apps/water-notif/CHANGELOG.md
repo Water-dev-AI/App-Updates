@@ -1,5 +1,15 @@
 # CHANGELOG — Water Notif
 
+## 0.10.3 (build 28) — 2026-11-16
+
+### Cập nhật
+
+- **Thông báo macOS khi có bản mới:** lần tự kiểm tra tìm thấy bản mới thì gửi thông báo "Water Notif có bản mới x.y.z" (mỗi version một lần); bấm vào thông báo mở cửa sổ cập nhật. Dùng quyền thông báo sẵn có; nhãn **Có bản x.y.z · Cập nhật** ở chân dashboard vẫn giữ.
+- **Tần suất kiểm tra cập nhật:** menu **Quyền → Tần suất kiểm tra cập nhật** chọn mỗi 1, 6 hoặc 24 giờ. Mặc định đổi từ 24 giờ sang **6 giờ**.
+- Thông báo nhắc task không đổi.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-notif-v0.10.3/water-notif-0.10.3.zip
+
 ## 0.10.2 (build 27) — 2026-11-14
 
 ### Sửa lỗi

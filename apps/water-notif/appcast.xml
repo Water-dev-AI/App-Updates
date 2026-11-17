@@ -5,6 +5,24 @@
   <channel>
     <title>Water Notif</title>
     <item>
+      <title>Version 0.10.3</title>
+      <pubDate>Tue, 17 Nov 2026 10:03:04 +0700</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.10.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Cập nhật</h4>
+<ul>
+<li><strong>Thông báo macOS khi có bản mới:</strong> lần tự kiểm tra tìm thấy bản mới thì gửi thông báo "Water Notif có bản mới x.y.z" (mỗi version một lần); bấm vào thông báo mở cửa sổ cập nhật. Dùng quyền thông báo sẵn có; nhãn <strong>Có bản x.y.z · Cập nhật</strong> ở chân dashboard vẫn giữ.</li>
+<li><strong>Tần suất kiểm tra cập nhật:</strong> menu <strong>Quyền → Tần suất kiểm tra cập nhật</strong> chọn mỗi 1, 6 hoặc 24 giờ. Mặc định đổi từ 24 giờ sang <strong>6 giờ</strong>.</li>
+<li>Thông báo nhắc task không đổi.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-notif-v0.10.3/water-notif-0.10.3.zip"
+        length="4454963"
+        type="application/octet-stream"
+        sparkle:edSignature="na0skYmkmkihGVhRnsgHQDlZE2qApGpfRsaeyZ5M2LMzEyBDEheNIbpctzmXHikhy8PyWZnYuSAiZv7hDwhMBQ=="/>
+    </item>
+    <item>
       <title>Version 0.10.2</title>
       <pubDate>Sat, 14 Nov 2026 12:43:00 +0700</pubDate>
       <sparkle:version>27</sparkle:version>
