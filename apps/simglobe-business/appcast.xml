@@ -5,6 +5,32 @@
   <channel>
     <title>SIMGLOBE QUẢN LÝ KINH DOANH</title>
     <item>
+      <title>Version 1.2.0</title>
+      <pubDate>Tue, 17 Nov 2026 10:04:11 +0700</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Giao diện mới, dễ theo dõi:</strong> thông báo có nguồn rõ ràng và hiện đúng chỗ — không còn một dòng trạng thái chung lẫn giữa các trang.</li>
+<li>Thẻ <strong>tiến trình đồng bộ</strong> 5 bước (My Bill THẾ GIỚI → My Bill VIỆT NAM → Giá vốn → Doanh thu → So sánh năm), có thời gian chạy, nút Dừng và nút <strong>Nhập CAPTCHA</strong> khi cần. Sidebar hiện ô nhỏ "Đang đồng bộ…" để thấy từ mọi trang.</li>
+<li><strong>Dải trạng thái</strong> dưới thanh lọc: kỳ <strong>đã chốt</strong> (xanh) / <strong>đang diễn ra – nên đồng bộ lại</strong> (cam) / <strong>chưa có số liệu</strong>, giờ lưu, cảnh báo <strong>tỷ giá đã đổi</strong>, nút Đồng bộ/Đồng bộ lại.</li>
+<li>Lỗi đồng bộ hiện thành thẻ đỏ <strong>của đúng kỳ bị lỗi</strong> (kèm bước lỗi, nút Thử lại). Lưu ý số liệu (thiếu tỷ giá, cảnh báo Bridge, doanh thu chưa ghép) gom vào một thẻ thu gọn.</li>
+<li>Thông báo nổi góc dưới phải, tự ẩn, ghi rõ nguồn ("Cài đặt · Đã lưu", "Đồng bộ · Xong T7/2026 [Xem]").</li>
+<li>Trang <strong>Thông báo</strong> (thay Nhật ký): lọc theo nguồn, màu theo mức độ, badge số lỗi chưa xem ở sidebar; vẫn xem được log file.</li>
+<li>Cài đặt: lỗi thiếu tài khoản/Bridge/Sheet hiện ngay tại thẻ liên quan. Cài đặt và Thông báo không còn thanh lọc số liệu.</li>
+<li>Bộ lọc <strong>Kênh</strong> chuyển lên thanh lọc chung (áp dụng cho mọi trang số liệu). Đồng bộ xong không tự nhảy trang.</li>
+<li><strong>Lưu số liệu theo kỳ:</strong> mỗi kỳ đã đồng bộ được lưu riêng trên máy; đổi kỳ là xem ngay, không phải tải lại. Kỳ đã lưu có dấu ✓ trong danh sách tháng/quý/năm. Lần đầu mở bản này, app tự chuyển các số liệu cũ đã lưu sang cách lưu mới (không xoá file cũ).</li>
+<li><strong>Đồng bộ nhanh hơn:</strong> số liệu so sánh cùng kỳ của các năm đã qua được lưu lại, lần sau không hỏi lại Bridge (menu cạnh nút Đồng bộ có "Tải mới toàn bộ" khi vừa sửa Sheet năm cũ).</li>
+<li>Rê chuột trên biểu đồ và sắp xếp bảng mượt hơn (không vẽ lại cả trang; định dạng số dùng chung).</li>
+<li>Không đổi cách tính số liệu, Bridge, tài khoản/Keychain hay cài đặt đã lưu.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/simglobe-business-v1.2.0/simglobe-business-1.2.0.zip"
+        length="3255282"
+        type="application/octet-stream"
+        sparkle:edSignature="GIQo3jR5zAoM5+29oPuxFNj/LaUZ5Uld66tfbsQqvmb5N2mzYu2o1RMgFa9WDCQBvoe2ukhvCXnwka1kMNZ7AA=="/>
+    </item>
+    <item>
       <title>Version 1.1.1</title>
       <pubDate>Sat, 14 Nov 2026 20:30:53 +0700</pubDate>
       <sparkle:version>3</sparkle:version>
