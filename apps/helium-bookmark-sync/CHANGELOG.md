@@ -1,5 +1,14 @@
 # CHANGELOG — Helium Bookmark Sync
 
+## 1.1.0 — 2026-11-17
+
+- **Đồng bộ danh sách extension** giữa các máy (bật sẵn, tắt được trong Cài đặt): máy thiếu extension nào sẽ hiện nút
+  **Cài** mở đúng trang Web Store; extension gỡ ở máy khác hiện **Gỡ ở máy này** (có hộp xác nhận) hoặc **Giữ lại**.
+- Popup báo số extension khác với các máy kia. Cài đặt bên trong từng extension không đồng bộ được (giới hạn của trình duyệt).
+- Extension xin thêm quyền "management" (quản lý extension) để đọc danh sách.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/helium-bookmark-sync-v1.1.0/helium-bookmark-sync-1.1.0.zip
+
 ## 1.0.1 — 2026-11-14
 
 - Tự sao lưu bookmark của máy ở lần đồng bộ đầu tiên (trước đây chỉ sao lưu khi nhận thay đổi từ máy khác nên mục "Bản sao lưu" trống).
