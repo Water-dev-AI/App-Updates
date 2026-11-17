@@ -1,5 +1,19 @@
 # CHANGELOG — WorldMove Sync
 
+## [1.21.0] - 2026-11-17
+
+### Fixed
+
+- CHECK XUẤT THIẾU: mã chỉ có ở **đơn eSIM trên website** (feed `source: "woo"`, ví dụ "T11 WEB (eSIM web)") mà chưa ghi vào sổ nay được **báo xuất thiếu**. Trước đây feed gộp đơn web vào danh sách mã nên app coi là "có trong sổ" (ví dụ `b0000262611150043` ngày 15/11). Mã có trong sổ (ZALO/TK1/TK2/WEB, CHỜ GIAO, TỒN KHO) vẫn tính như cũ, kể cả khi đồng thời có đơn web.
+- Vị trí đơn web không còn tạo cảnh báo "đã hoàn còn trong sổ"; danh sách nguồn đã dò trong báo cáo không còn ghi nguồn chỉ-web.
+
+### Notes
+
+- Bridge v44 (bắt buộc cho CHECK XUẤT THIẾU). App tự cập nhật Bridge khi mở nếu đã bật tự cập nhật Bridge; nếu chưa, app báo cần deploy v44 trước khi chạy.
+- Nên chạy lại CHECK XUẤT THIẾU các ngày gần đây để bắt các mã đã bị bỏ sót theo quy tắc cũ.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.21.0/worldmove-sync-1.21.0.zip
+
 ## [1.20.0] - 2026-11-16
 
 ### Changed

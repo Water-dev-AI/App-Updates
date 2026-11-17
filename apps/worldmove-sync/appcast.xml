@@ -5,6 +5,28 @@
   <channel>
     <title>WorldMove Sync</title>
     <item>
+      <title>Version 1.21.0</title>
+      <pubDate>Tue, 17 Nov 2026 18:25:15 +0700</pubDate>
+      <sparkle:version>115</sparkle:version>
+      <sparkle:shortVersionString>1.21.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Fixed</h4>
+<ul>
+<li>CHECK XUẤT THIẾU: mã chỉ có ở <strong>đơn eSIM trên website</strong> (feed <code>source: "woo"</code>, ví dụ "T11 WEB (eSIM web)") mà chưa ghi vào sổ nay được <strong>báo xuất thiếu</strong>. Trước đây feed gộp đơn web vào danh sách mã nên app coi là "có trong sổ" (ví dụ <code>b0000262611150043</code> ngày 15/11). Mã có trong sổ (ZALO/TK1/TK2/WEB, CHỜ GIAO, TỒN KHO) vẫn tính như cũ, kể cả khi đồng thời có đơn web.</li>
+<li>Vị trí đơn web không còn tạo cảnh báo "đã hoàn còn trong sổ"; danh sách nguồn đã dò trong báo cáo không còn ghi nguồn chỉ-web.</li>
+</ul>
+<h4>Notes</h4>
+<ul>
+<li>Bridge v44 (bắt buộc cho CHECK XUẤT THIẾU). App tự cập nhật Bridge khi mở nếu đã bật tự cập nhật Bridge; nếu chưa, app báo cần deploy v44 trước khi chạy.</li>
+<li>Nên chạy lại CHECK XUẤT THIẾU các ngày gần đây để bắt các mã đã bị bỏ sót theo quy tắc cũ.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.21.0/worldmove-sync-1.21.0.zip"
+        length="3000007"
+        type="application/octet-stream"
+        sparkle:edSignature="0Pr6OykTbL9K8HTuW5kVrV0RChTRO+ukZ+2U7tPIfVgpVQTEuz++7u+axAizKUvFnD0FZ+H5ydUFLzydlzHYCg=="/>
+    </item>
+    <item>
       <title>Version 1.20.0</title>
       <pubDate>Mon, 16 Nov 2026 15:08:56 +0700</pubDate>
       <sparkle:version>114</sparkle:version>
