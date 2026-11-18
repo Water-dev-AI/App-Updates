@@ -1,5 +1,21 @@
 # CHANGELOG — WorldMove Sync
 
+## [1.22.0] - 2026-11-18
+
+Bản phát hành cuối của app (người dùng chốt 18/11/2026: Bảng giá + APN chuyển hẳn lên website muaesim.com).
+
+### Changed
+
+- **Bảng giá và APN đã chuyển lên website muaesim.com → Cài đặt.** App không còn tự chạy hay chạy tay: tải Bảng giá, ghi Sheets, kiểm tra lệch giá F/G, dò gói thiếu, APN BẢNG GIÁ, kiểm tra Gói THẾ GIỚI/VIỆT NAM, ESIM APN, SIM APN và dò tên file APN. Các tab cũ vẫn mở được để xem lịch sử/báo cáo; nút chạy bị khoá kèm ghi chú. Thông báo Bảng giá/APN còn chờ được chuyển sang "Đã xử lý" (không xoá).
+- **Tự cập nhật Bridge lấy nguồn từ website** (`/wp-json/muaesim-ledger/v1/worldmove-bridge`, dùng cùng token feed CHECK XUẤT THIẾU). Chỉ deploy khi website trả ok, SHA-256 khớp, dòng 1 ghi đúng version và version lớn hơn Bridge đang chạy; không bao giờ deploy bản thấp hơn/bằng; lỗi thì không deploy. Không còn deploy file Bridge đóng gói trong app. Nút "Copy Bridge" cũng lấy từ website.
+- Lịch tự động chỉ còn Important Notice, Daily Notice và CHECK XUẤT THIẾU.
+
+### Kept
+
+- Daily Notice, Important Notice, Return Order / CHECK XUẤT THIẾU, chụp bill, cập nhật một chạm (Sparkle), vault, backup.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.22.0/worldmove-sync-1.22.0.zip
+
 ## [1.21.2] - 2026-11-18
 
 ### Changed

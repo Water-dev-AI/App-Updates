@@ -5,6 +5,29 @@
   <channel>
     <title>WorldMove Sync</title>
     <item>
+      <title>Version 1.22.0</title>
+      <pubDate>Wed, 18 Nov 2026 18:03:24 +0700</pubDate>
+      <sparkle:version>118</sparkle:version>
+      <sparkle:shortVersionString>1.22.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Bản phát hành cuối của app (người dùng chốt 18/11/2026: Bảng giá + APN chuyển hẳn lên website muaesim.com).</p>
+<h4>Changed</h4>
+<ul>
+<li><strong>Bảng giá và APN đã chuyển lên website muaesim.com → Cài đặt.</strong> App không còn tự chạy hay chạy tay: tải Bảng giá, ghi Sheets, kiểm tra lệch giá F/G, dò gói thiếu, APN BẢNG GIÁ, kiểm tra Gói THẾ GIỚI/VIỆT NAM, ESIM APN, SIM APN và dò tên file APN. Các tab cũ vẫn mở được để xem lịch sử/báo cáo; nút chạy bị khoá kèm ghi chú. Thông báo Bảng giá/APN còn chờ được chuyển sang "Đã xử lý" (không xoá).</li>
+<li><strong>Tự cập nhật Bridge lấy nguồn từ website</strong> (<code>/wp-json/muaesim-ledger/v1/worldmove-bridge</code>, dùng cùng token feed CHECK XUẤT THIẾU). Chỉ deploy khi website trả ok, SHA-256 khớp, dòng 1 ghi đúng version và version lớn hơn Bridge đang chạy; không bao giờ deploy bản thấp hơn/bằng; lỗi thì không deploy. Không còn deploy file Bridge đóng gói trong app. Nút "Copy Bridge" cũng lấy từ website.</li>
+<li>Lịch tự động chỉ còn Important Notice, Daily Notice và CHECK XUẤT THIẾU.</li>
+</ul>
+<h4>Kept</h4>
+<ul>
+<li>Daily Notice, Important Notice, Return Order / CHECK XUẤT THIẾU, chụp bill, cập nhật một chạm (Sparkle), vault, backup.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.22.0/worldmove-sync-1.22.0.zip"
+        length="2944838"
+        type="application/octet-stream"
+        sparkle:edSignature="GKm97TdupFtsco8ikdOOoEteZNhRzsKyt0vsDROdok8QwZBYtM/xtKu0kr0mCXY0YsoN9v1btHXiWLlc7gz4AQ=="/>
+    </item>
+    <item>
       <title>Version 1.21.2</title>
       <pubDate>Wed, 18 Nov 2026 15:46:10 +0700</pubDate>
       <sparkle:version>117</sparkle:version>
