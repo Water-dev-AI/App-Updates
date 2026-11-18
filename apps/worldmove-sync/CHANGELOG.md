@@ -1,5 +1,14 @@
 # CHANGELOG — WorldMove Sync
 
+## [1.21.1] - 2026-11-18
+
+### Changed
+
+- Chi tiết Daily Notice hiển thị giống bảng của hãng: hai cột (trái: ngày + tiêu đề, phải: nội dung), mỗi gói 【…】 một dòng, các nhóm "eSIM product :" / "eSIM 方案 :" tách riêng, mũi tên ⬇ màu xanh, ⬆ màu đỏ, dấu ❗ màu đỏ. Bỏ font máy chữ khó đọc; chi tiết của các thông báo khác cũng dùng chữ thường, giữ xuống dòng.
+- Trích Daily Notice giữ nguyên xuống dòng của trang hãng. Thông báo cũ đã lưu (bị dồn một dòng) được tự tách lại khi hiển thị; không tạo thông báo trùng (so sánh vẫn theo ngày đăng).
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.21.1/worldmove-sync-1.21.1.zip
+
 ## [1.21.0] - 2026-11-17
 
 ### Fixed

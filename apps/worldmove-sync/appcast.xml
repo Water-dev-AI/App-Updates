@@ -5,6 +5,23 @@
   <channel>
     <title>WorldMove Sync</title>
     <item>
+      <title>Version 1.21.1</title>
+      <pubDate>Wed, 18 Nov 2026 15:29:43 +0700</pubDate>
+      <sparkle:version>116</sparkle:version>
+      <sparkle:shortVersionString>1.21.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Changed</h4>
+<ul>
+<li>Chi tiết Daily Notice hiển thị giống bảng của hãng: hai cột (trái: ngày + tiêu đề, phải: nội dung), mỗi gói 【…】 một dòng, các nhóm "eSIM product :" / "eSIM 方案 :" tách riêng, mũi tên ⬇ màu xanh, ⬆ màu đỏ, dấu ❗ màu đỏ. Bỏ font máy chữ khó đọc; chi tiết của các thông báo khác cũng dùng chữ thường, giữ xuống dòng.</li>
+<li>Trích Daily Notice giữ nguyên xuống dòng của trang hãng. Thông báo cũ đã lưu (bị dồn một dòng) được tự tách lại khi hiển thị; không tạo thông báo trùng (so sánh vẫn theo ngày đăng).</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.21.1/worldmove-sync-1.21.1.zip"
+        length="3013299"
+        type="application/octet-stream"
+        sparkle:edSignature="XyVdRL3M0g56hVgCx+EPAqAi3P4dGF+fg8VN+2E9X0QTW+gP65GWJlkIaX4/58GhAy+HBLBpmo3qyiP7eaNBAQ=="/>
+    </item>
+    <item>
       <title>Version 1.21.0</title>
       <pubDate>Tue, 17 Nov 2026 18:25:15 +0700</pubDate>
       <sparkle:version>115</sparkle:version>
