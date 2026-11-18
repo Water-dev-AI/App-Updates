@@ -5,6 +5,24 @@
   <channel>
     <title>WorldMove Sync</title>
     <item>
+      <title>Version 1.21.2</title>
+      <pubDate>Wed, 18 Nov 2026 15:46:10 +0700</pubDate>
+      <sparkle:version>117</sparkle:version>
+      <sparkle:shortVersionString>1.21.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Changed</h4>
+<ul>
+<li>Bảng giá: trạng thái tab hiện đúng bước đang chạy (ghi Sheets → kiểm tra lệch giá F/G → dò gói thiếu → chờ kiểm tra Gói THẾ GIỚI/VIỆT NAM). Trước đây app chỉ ghi "Đang thay dữ liệu đúng tab Google Sheets…" rồi im lặng suốt các bước sau nên trông như treo.</li>
+<li>Khi tab đang chạy, góc phải hiện "Bước này: X · Tổng: Y" (tự cập nhật; bước quá 5 phút tô cam) thay cho "X phút trước".</li>
+<li>Lịch sử Bảng giá ghi thời gian từng bước (tải, ghi Sheets, lệch giá, gói thiếu) để tìm bước chậm.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.21.2/worldmove-sync-1.21.2.zip"
+        length="3024440"
+        type="application/octet-stream"
+        sparkle:edSignature="sefznQgvCzhuHGfLjXpObjBxwyVf9XlD2CxAvDmLl2z4HcqmXozsdvTq3ChwedLlTd4Gyfo4PWs5ovu9DRTuDg=="/>
+    </item>
+    <item>
       <title>Version 1.21.1</title>
       <pubDate>Wed, 18 Nov 2026 15:29:43 +0700</pubDate>
       <sparkle:version>116</sparkle:version>

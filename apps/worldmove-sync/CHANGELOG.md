@@ -1,5 +1,15 @@
 # CHANGELOG — WorldMove Sync
 
+## [1.21.2] - 2026-11-18
+
+### Changed
+
+- Bảng giá: trạng thái tab hiện đúng bước đang chạy (ghi Sheets → kiểm tra lệch giá F/G → dò gói thiếu → chờ kiểm tra Gói THẾ GIỚI/VIỆT NAM). Trước đây app chỉ ghi "Đang thay dữ liệu đúng tab Google Sheets…" rồi im lặng suốt các bước sau nên trông như treo.
+- Khi tab đang chạy, góc phải hiện "Bước này: X · Tổng: Y" (tự cập nhật; bước quá 5 phút tô cam) thay cho "X phút trước".
+- Lịch sử Bảng giá ghi thời gian từng bước (tải, ghi Sheets, lệch giá, gói thiếu) để tìm bước chậm.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.21.2/worldmove-sync-1.21.2.zip
+
 ## [1.21.1] - 2026-11-18
 
 ### Changed
