@@ -5,6 +5,27 @@
   <channel>
     <title>WorldMove Sync</title>
     <item>
+      <title>Version 1.23.0</title>
+      <pubDate>Thu, 19 Nov 2026 15:22:00 +0700</pubDate>
+      <sparkle:version>119</sparkle:version>
+      <sparkle:shortVersionString>1.23.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Changed</h4>
+<ul>
+<li><strong>App chỉ đọc:</strong> dừng toàn bộ thao tác ghi lên Google Sheets và Google Apps Script. Mọi lệnh ghi gửi Bridge bị chặn ngay trước khi gửi (chỉ còn cho phép đối chiếu CHECK XUẤT THIẾU — đọc sổ/feed, báo cáo XLSX tạo trên máy). App không còn tự cập nhật / deploy Bridge; nút "Cập nhật Bridge ngay", "Kết nối Google", công tắc tự cập nhật và "Copy Bridge" bị khoá mờ.</li>
+<li>Bridge do website muaesim.com quản lý (đã lên v46). "Kiểm tra Bridge" vẫn đọc được phiên bản đang chạy; CHECK XUẤT THIẾU tương thích v46 (các hàm đối chiếu giống hệt v44).</li>
+</ul>
+<h4>Kept</h4>
+<ul>
+<li>Daily Notice, Important Notice, Return Order / CHECK XUẤT THIẾU, chụp bill (PDF trên máy), cập nhật một chạm, vault, backup.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.23.0/worldmove-sync-1.23.0.zip"
+        length="2914497"
+        type="application/octet-stream"
+        sparkle:edSignature="SzETZ2UT6WS2vJqTV4tQfPxRAPG5belPv9Mhy/fcDOvmL2IsHnsVJm3y3e2QPM49kDbdg5FzzwicfGoIdGLLAw=="/>
+    </item>
+    <item>
       <title>Version 1.22.0</title>
       <pubDate>Wed, 18 Nov 2026 18:03:24 +0700</pubDate>
       <sparkle:version>118</sparkle:version>

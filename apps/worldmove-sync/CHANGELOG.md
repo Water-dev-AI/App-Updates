@@ -1,5 +1,18 @@
 # CHANGELOG — WorldMove Sync
 
+## [1.23.0] - 2026-11-19
+
+### Changed
+
+- **App chỉ đọc:** dừng toàn bộ thao tác ghi lên Google Sheets và Google Apps Script. Mọi lệnh ghi gửi Bridge bị chặn ngay trước khi gửi (chỉ còn cho phép đối chiếu CHECK XUẤT THIẾU — đọc sổ/feed, báo cáo XLSX tạo trên máy). App không còn tự cập nhật / deploy Bridge; nút "Cập nhật Bridge ngay", "Kết nối Google", công tắc tự cập nhật và "Copy Bridge" bị khoá mờ.
+- Bridge do website muaesim.com quản lý (đã lên v46). "Kiểm tra Bridge" vẫn đọc được phiên bản đang chạy; CHECK XUẤT THIẾU tương thích v46 (các hàm đối chiếu giống hệt v44).
+
+### Kept
+
+- Daily Notice, Important Notice, Return Order / CHECK XUẤT THIẾU, chụp bill (PDF trên máy), cập nhật một chạm, vault, backup.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.23.0/worldmove-sync-1.23.0.zip
+
 ## [1.22.0] - 2026-11-18
 
 Bản phát hành cuối của app (người dùng chốt 18/11/2026: Bảng giá + APN chuyển hẳn lên website muaesim.com).
