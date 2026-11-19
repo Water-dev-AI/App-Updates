@@ -5,6 +5,22 @@
   <channel>
     <title>WATER IMAGE GENERATOR</title>
     <item>
+      <title>Version 2.12.0</title>
+      <pubDate>Thu, 19 Nov 2026 18:32:30 +0700</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Prompt mặc định chuyển sang ảnh thật:</strong> ảnh minh họa phải là ảnh chụp / ảnh ghép báo chí photorealistic (chân dung người thật tả thực, bối cảnh và vật thể biểu tượng như ảnh chụp, ghép lớp mềm). Cấm tranh vẽ, minh họa vẽ tay, hoạt hình, cartoon, comic, anime, vector, flat design, line art, icon phẳng, bong bóng thoại. Ý tưởng trừu tượng (AI, tăng trưởng, rủi ro, pháp lý) thể hiện bằng vật thể thật thay vì icon. Prompt sửa ảnh chuyển ảnh dạng vẽ sang ảnh thật, giữ bố cục và số liệu đúng.</li>
+<li><strong>Thông báo khi prompt mặc định có bản mới:</strong> máy đang dùng prompt mặc định (chưa tự sửa) được cập nhật luôn. Máy có prompt <strong>tự sửa</strong> sẽ hiện thông báo cho chọn <strong>Giữ prompt của tôi</strong> (không đổi gì) hoặc <strong>Dùng prompt mặc định mới</strong> (prompt cũ được sao lưu thành <code>*.backup-&lt;thời gian&gt;.md</code> trong <code>Workspace</code>). Chỉ hỏi một lần cho mỗi lần prompt mặc định thay đổi; đổi lại sau bằng nút <strong>Mặc định</strong>.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.12.0/water-image-generator-2.12.0.zip"
+        length="4201704"
+        type="application/octet-stream"
+        sparkle:edSignature="3DwechMrBP0f4cKSWsj0AjFczRSPj1E7Euus6n5dmEx2cRWgdbs6Kqqkvj4wTgA4dX8PVrvdUzRYsRnlhb6SBw=="/>
+    </item>
+    <item>
       <title>Version 2.11.0</title>
       <pubDate>Mon, 16 Nov 2026 12:11:32 +0700</pubDate>
       <sparkle:version>41</sparkle:version>

@@ -1,5 +1,12 @@
 # CHANGELOG — WATER IMAGE GENERATOR
 
+## 2.12.0 (build 42) — 2026-11-19
+
+- **Prompt mặc định chuyển sang ảnh thật:** ảnh minh họa phải là ảnh chụp / ảnh ghép báo chí photorealistic (chân dung người thật tả thực, bối cảnh và vật thể biểu tượng như ảnh chụp, ghép lớp mềm). Cấm tranh vẽ, minh họa vẽ tay, hoạt hình, cartoon, comic, anime, vector, flat design, line art, icon phẳng, bong bóng thoại. Ý tưởng trừu tượng (AI, tăng trưởng, rủi ro, pháp lý) thể hiện bằng vật thể thật thay vì icon. Prompt sửa ảnh chuyển ảnh dạng vẽ sang ảnh thật, giữ bố cục và số liệu đúng.
+- **Thông báo khi prompt mặc định có bản mới:** máy đang dùng prompt mặc định (chưa tự sửa) được cập nhật luôn. Máy có prompt **tự sửa** sẽ hiện thông báo cho chọn **Giữ prompt của tôi** (không đổi gì) hoặc **Dùng prompt mặc định mới** (prompt cũ được sao lưu thành `*.backup-<thời gian>.md` trong `Workspace`). Chỉ hỏi một lần cho mỗi lần prompt mặc định thay đổi; đổi lại sau bằng nút **Mặc định**.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/tag/water-image-generator-v2.12.0
+
 ## 2.11.0 (build 41) — 2026-11-16
 
 - **Sửa QC đánh trượt nhầm ảnh lượt đầu có số liệu đúng.** Nguyên nhân: QC so số theo chuỗi ký tự (`12,300` ≠ `12.300`, `42 600` bị tách đôi, `15%` ≠ "15 phần trăm", `12,3 nghìn tỷ` ≠ `12.300 tỷ`), coi nhãn đơn vị nhỏ cạnh số lớn là "chữ quá nhỏ", tính cả "tỷ/đồng" vào ngân sách 6 từ, so từ khoá có dấu sai (chữ "đ"). Báo lỗi đó khiến prompt sửa ảnh xoá luôn số — ảnh không chữ qua mọi kiểm tra OCR nên lại "đạt".
