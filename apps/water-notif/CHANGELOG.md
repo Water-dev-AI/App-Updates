@@ -1,5 +1,14 @@
 # CHANGELOG — Water Notif
 
+## 0.10.4 (build 29) — 2026-11-21
+
+### Sửa nhanh
+
+- **Nhấp đúp vào tên task để sửa ngay tại chỗ:** Enter hoặc bấm ra ngoài để lưu, Esc để hủy. Tên trống thì giữ tên cũ. Task đã liên kết Apple Reminders được cập nhật tên như khi sửa bằng form.
+- Bản này cũng dùng để thử **thông báo macOS khi có bản mới** (có từ 0.10.3).
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-notif-v0.10.4/water-notif-0.10.4.zip
+
 ## 0.10.3 (build 28) — 2026-11-16
 
 ### Cập nhật

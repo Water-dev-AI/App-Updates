@@ -5,6 +5,23 @@
   <channel>
     <title>Water Notif</title>
     <item>
+      <title>Version 0.10.4</title>
+      <pubDate>Sat, 21 Nov 2026 10:52:49 +0700</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.10.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Sửa nhanh</h4>
+<ul>
+<li><strong>Nhấp đúp vào tên task để sửa ngay tại chỗ:</strong> Enter hoặc bấm ra ngoài để lưu, Esc để hủy. Tên trống thì giữ tên cũ. Task đã liên kết Apple Reminders được cập nhật tên như khi sửa bằng form.</li>
+<li>Bản này cũng dùng để thử <strong>thông báo macOS khi có bản mới</strong> (có từ 0.10.3).</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-notif-v0.10.4/water-notif-0.10.4.zip"
+        length="4465238"
+        type="application/octet-stream"
+        sparkle:edSignature="bqQBAUD6nrBDGKQwzK6c1QnQ6m2P5C5bmmBX1eeSt03ohA1exd66zRn9EWvFOC0SpCYg+QgetmlExBiqVZb6CA=="/>
+    </item>
+    <item>
       <title>Version 0.10.3</title>
       <pubDate>Tue, 17 Nov 2026 10:03:04 +0700</pubDate>
       <sparkle:version>28</sparkle:version>
