@@ -5,6 +5,23 @@
   <channel>
     <title>WATER IMAGE GENERATOR (macOS 12+)</title>
     <item>
+      <title>Version 2.12.1</title>
+      <pubDate>Sun, 22 Nov 2026 18:34:54 +0700</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>2.12.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Sửa lỗi gấp: ChatGPT đã trả ảnh nhưng app báo "không trả ảnh sau 2 lần gửi".</strong> Nguyên nhân: prompt mặc định 2.12.0 dài hơn ~1 700 ký tự, đẩy prompt gửi đi (kèm đoạn tin và ngữ cảnh liền kề) vượt khoảng 8 000 ký tự. Với tin nhắn dài như vậy ChatGPT thu gọn nội dung, app không nhận ra tin nhắn vừa gửi nên không ghép được ảnh (log: mọi prompt ≥ 8 083 ký tự đều kẹt "Chờ ChatGPT xác nhận yêu cầu", prompt ≤ 7 832 ký tự chạy bình thường).</li>
+<li>Rút gọn prompt mặc định (vẫn bắt buộc ảnh thật, cấm tranh vẽ/hoạt hình/vector/icon). Máy đang dùng prompt mặc định 2.12.0 được tự cập nhật; máy có prompt tự sửa được hỏi giữ hay dùng bản mới.</li>
+<li>Prompt gửi đi luôn ≤ 7 000 ký tự: nếu dài hơn, app bớt dần số shot trước/sau trong ngữ cảnh liền kề (không cắt đoạn tin hay prompt của bạn). Log ghi độ dài prompt mỗi lần gửi và cảnh báo nếu prompt tự sửa vẫn quá dài.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.12.1/water-image-generator-macos12-2.12.1.zip"
+        length="4235637"
+        type="application/octet-stream"
+        sparkle:edSignature="Vrc0+AvOw+iM7oJp7bqDgcog6QgNGAz4HHEXTvwIJJlooSH+9lMQ5YN9F3OWggGaIVUx0NRjb2QZxz/+B2QpAg=="/>
+    </item>
+    <item>
       <title>Version 2.12.0</title>
       <pubDate>Thu, 19 Nov 2026 18:32:30 +0700</pubDate>
       <sparkle:version>42</sparkle:version>

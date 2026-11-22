@@ -1,5 +1,13 @@
 # CHANGELOG — WATER IMAGE GENERATOR
 
+## 2.12.1 (build 43) — 2026-11-22
+
+- **Sửa lỗi gấp: ChatGPT đã trả ảnh nhưng app báo "không trả ảnh sau 2 lần gửi".** Nguyên nhân: prompt mặc định 2.12.0 dài hơn ~1 700 ký tự, đẩy prompt gửi đi (kèm đoạn tin và ngữ cảnh liền kề) vượt khoảng 8 000 ký tự. Với tin nhắn dài như vậy ChatGPT thu gọn nội dung, app không nhận ra tin nhắn vừa gửi nên không ghép được ảnh (log: mọi prompt ≥ 8 083 ký tự đều kẹt "Chờ ChatGPT xác nhận yêu cầu", prompt ≤ 7 832 ký tự chạy bình thường).
+- Rút gọn prompt mặc định (vẫn bắt buộc ảnh thật, cấm tranh vẽ/hoạt hình/vector/icon). Máy đang dùng prompt mặc định 2.12.0 được tự cập nhật; máy có prompt tự sửa được hỏi giữ hay dùng bản mới.
+- Prompt gửi đi luôn ≤ 7 000 ký tự: nếu dài hơn, app bớt dần số shot trước/sau trong ngữ cảnh liền kề (không cắt đoạn tin hay prompt của bạn). Log ghi độ dài prompt mỗi lần gửi và cảnh báo nếu prompt tự sửa vẫn quá dài.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/tag/water-image-generator-v2.12.1
+
 ## 2.12.0 (build 42) — 2026-11-19
 
 - **Prompt mặc định chuyển sang ảnh thật:** ảnh minh họa phải là ảnh chụp / ảnh ghép báo chí photorealistic (chân dung người thật tả thực, bối cảnh và vật thể biểu tượng như ảnh chụp, ghép lớp mềm). Cấm tranh vẽ, minh họa vẽ tay, hoạt hình, cartoon, comic, anime, vector, flat design, line art, icon phẳng, bong bóng thoại. Ý tưởng trừu tượng (AI, tăng trưởng, rủi ro, pháp lý) thể hiện bằng vật thể thật thay vì icon. Prompt sửa ảnh chuyển ảnh dạng vẽ sang ảnh thật, giữ bố cục và số liệu đúng.
