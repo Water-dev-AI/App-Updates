@@ -1,5 +1,12 @@
 # CHANGELOG — WATER IMAGE GENERATOR
 
+## 2.12.2 (build 44) — 2026-11-22
+
+- **Không còn bị macOS đòi mật khẩu Keychain** ("WATER IMAGE GENERATOR wants to use … Khóa chính WebCrypto … in your keychain") sau khi cập nhật. Nguyên nhân: khung ChatGPT/Gemini/Grok (WebKit) cất khoá mã hoá trong Keychain, mà app chưa có chữ ký cố định nên mỗi bản cập nhật macOS coi là app khác và hỏi lại mật khẩu. Nay app tự cấp khoá này cho WebKit (lưu trong `~/Library/Application Support/local.newsvisual.ImageChatGPTApp/webcrypto-master-key.bin`, chỉ tài khoản máy đọc được), WebKit không đụng Keychain nữa.
+- Lần đầu mở bản này có thể phải đăng nhập lại ChatGPT/Gemini/Grok trong app một lần. Khoá cũ trong Keychain không còn dùng; có thể xoá trong Keychain Access (tìm "WebCrypto").
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/tag/water-image-generator-v2.12.2
+
 ## 2.12.1 (build 43) — 2026-11-22
 
 - **Sửa lỗi gấp: ChatGPT đã trả ảnh nhưng app báo "không trả ảnh sau 2 lần gửi".** Nguyên nhân: prompt mặc định 2.12.0 dài hơn ~1 700 ký tự, đẩy prompt gửi đi (kèm đoạn tin và ngữ cảnh liền kề) vượt khoảng 8 000 ký tự. Với tin nhắn dài như vậy ChatGPT thu gọn nội dung, app không nhận ra tin nhắn vừa gửi nên không ghép được ảnh (log: mọi prompt ≥ 8 083 ký tự đều kẹt "Chờ ChatGPT xác nhận yêu cầu", prompt ≤ 7 832 ký tự chạy bình thường).

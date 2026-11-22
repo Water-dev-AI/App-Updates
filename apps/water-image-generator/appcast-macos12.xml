@@ -5,6 +5,22 @@
   <channel>
     <title>WATER IMAGE GENERATOR (macOS 12+)</title>
     <item>
+      <title>Version 2.12.2</title>
+      <pubDate>Sun, 22 Nov 2026 22:21:15 +0700</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>2.12.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Không còn bị macOS đòi mật khẩu Keychain</strong> ("WATER IMAGE GENERATOR wants to use … Khóa chính WebCrypto … in your keychain") sau khi cập nhật. Nguyên nhân: khung ChatGPT/Gemini/Grok (WebKit) cất khoá mã hoá trong Keychain, mà app chưa có chữ ký cố định nên mỗi bản cập nhật macOS coi là app khác và hỏi lại mật khẩu. Nay app tự cấp khoá này cho WebKit (lưu trong <code>~/Library/Application Support/local.newsvisual.ImageChatGPTApp/webcrypto-master-key.bin</code>, chỉ tài khoản máy đọc được), WebKit không đụng Keychain nữa.</li>
+<li>Lần đầu mở bản này có thể phải đăng nhập lại ChatGPT/Gemini/Grok trong app một lần. Khoá cũ trong Keychain không còn dùng; có thể xoá trong Keychain Access (tìm "WebCrypto").</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.12.2/water-image-generator-macos12-2.12.2.zip"
+        length="4248707"
+        type="application/octet-stream"
+        sparkle:edSignature="/8eheecPWo++t4NSWr47LTZ56gXlOTxhRUqI8V5CcTu3jruuQyRVwDdt7pwR1P1/WjyGlFNgkpQC9DfT3PQwAw=="/>
+    </item>
+    <item>
       <title>Version 2.12.1</title>
       <pubDate>Sun, 22 Nov 2026 18:34:54 +0700</pubDate>
       <sparkle:version>43</sparkle:version>
