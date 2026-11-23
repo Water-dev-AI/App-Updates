@@ -1,5 +1,15 @@
 # CHANGELOG — WorldMove Sync
 
+## [1.23.1] - 2026-11-23
+
+### Changed
+
+- Bỏ hẳn khỏi sidebar nhóm Bảng giá / Gói THẾ GIỚI / Gói VIỆT NAM / Kiểm tra lệch giá / Dò gói thiếu / ESIM APN / SIM APN / APN BẢNG GIÁ (đã chuyển lên website). Sidebar chỉ còn Hộp thông báo, CHECK XUẤT THIẾU, Important/Daily Notice, chụp hóa đơn.
+- App mở vào **Hộp thông báo** thay cho tab Bảng giá; mọi đường cũ dẫn tới tab Bảng giá/APN đều tự chuyển về Hộp thông báo. Hộp thông báo không còn nhóm/lọc của các tab đã bỏ.
+- Vẫn chỉ đọc như 1.23.0. Code và dữ liệu cũ giữ nguyên (không xoá lịch sử/báo cáo trên máy).
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/worldmove-sync-v1.23.1/worldmove-sync-1.23.1.zip
+
 ## [1.23.0] - 2026-11-19
 
 ### Changed
