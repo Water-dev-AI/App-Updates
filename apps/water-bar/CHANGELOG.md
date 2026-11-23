@@ -1,5 +1,12 @@
 # CHANGELOG — Water Bar
 
+## 1.4.1 (build 24) — 2026-11-23
+
+- macOS 27: sửa lỗi lần thu gọn thứ hai đọc sai vị trí vạch │ nên không ẩn được gì.
+- macOS 27: chờ lâu hơn với app trả lời chậm; nhật ký `hide27.txt` ghi đầy đủ danh sách icon ở lần thu gọn đầu tiên (để chẩn đoán).
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-bar-v1.4.1/water-bar-1.4.1.zip
+
 ## 1.4.0 (build 23) — 2026-11-23
 
 - **Sửa lỗi macOS 27**: Water Bar ẩn được icon trở lại. macOS 27 không cho kéo dài vạch │ nữa, nên Water Bar dùng cơ chế giới hạn thanh menu có sẵn của macOS.
