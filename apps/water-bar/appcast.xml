@@ -5,6 +5,22 @@
   <channel>
     <title>Water Bar</title>
     <item>
+      <title>Version 1.4.2</title>
+      <pubDate>Mon, 23 Nov 2026 16:00:34 +0700</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>macOS 27: sửa lỗi icon "ẩn rồi lại hiện". Khi mở rộng, macOS dồn icon thiếu chỗ vào nút »; Water Bar không thấy các icon đó nên trước đây để chúng hiện lại sau khi thu gọn. Giờ chỉ app có icon nằm <strong>bên phải</strong> vạch │ được hiện, mọi icon còn lại (kể cả trong ») đều ẩn.</li>
+<li>macOS 27: đọc vị trí icon của các app song song (thu gọn nhanh hơn); app tắt Trợ năng luôn được hiện.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-bar-v1.4.2/water-bar-1.4.2.zip"
+        length="2810448"
+        type="application/octet-stream"
+        sparkle:edSignature="xryog3D0EZEp2YwgNEwOaryxN6jP3d2DIcC9y+QRc/dMKgcCABBubVDUC08RFfG2QnoxFk10RHQ85wcDGAUuDQ=="/>
+    </item>
+    <item>
       <title>Version 1.4.1</title>
       <pubDate>Mon, 23 Nov 2026 15:51:22 +0700</pubDate>
       <sparkle:version>24</sparkle:version>

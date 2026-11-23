@@ -1,5 +1,12 @@
 # CHANGELOG — Water Bar
 
+## 1.4.2 (build 25) — 2026-11-23
+
+- macOS 27: sửa lỗi icon "ẩn rồi lại hiện". Khi mở rộng, macOS dồn icon thiếu chỗ vào nút »; Water Bar không thấy các icon đó nên trước đây để chúng hiện lại sau khi thu gọn. Giờ chỉ app có icon nằm **bên phải** vạch │ được hiện, mọi icon còn lại (kể cả trong ») đều ẩn.
+- macOS 27: đọc vị trí icon của các app song song (thu gọn nhanh hơn); app tắt Trợ năng luôn được hiện.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-bar-v1.4.2/water-bar-1.4.2.zip
+
 ## 1.4.1 (build 24) — 2026-11-23
 
 - macOS 27: sửa lỗi lần thu gọn thứ hai đọc sai vị trí vạch │ nên không ẩn được gì.
