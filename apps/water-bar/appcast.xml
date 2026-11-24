@@ -5,6 +5,22 @@
   <channel>
     <title>Water Bar</title>
     <item>
+      <title>Version 1.4.3</title>
+      <pubDate>Tue, 24 Nov 2026 17:20:01 +0700</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>macOS 27: sửa lỗi chú thích (tooltip) bị kẹt trên màn hình sau khi thu gọn. Vạch │ và giọt nước 💧 không còn tooltip trên macOS 27; với app khác (vd KDE Connect), Water Bar chờ tooltip tắt rồi mới ẩn, và nếu vẫn kẹt thì cho app đó hiện lại chốc lát để tự tắt.</li>
+<li>macOS 27: sửa lỗi một số app bên phải vạch │ bị ẩn. Water Bar chờ macOS xếp xong thanh menu rồi mới đọc vị trí icon, đọc lại nếu vạch │ đè lên icon khác, và nhớ app nằm bên nào của │ (khi icon tạm thời không thấy).</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-bar-v1.4.3/water-bar-1.4.3.zip"
+        length="2834585"
+        type="application/octet-stream"
+        sparkle:edSignature="TqdGpLqrii1soYwXG/2pU73wJPrYd+g6Gu71vYBXcnMruz/VEfmJ9Xmqwv6Qopvye9GLPfrJS68BmNwMhgYSDw=="/>
+    </item>
+    <item>
       <title>Version 1.4.2</title>
       <pubDate>Mon, 23 Nov 2026 16:00:34 +0700</pubDate>
       <sparkle:version>25</sparkle:version>
