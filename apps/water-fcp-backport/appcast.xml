@@ -5,6 +5,21 @@
   <channel>
     <title>WATER FCP BACKPORT</title>
     <item>
+      <title>Version 0.1.1</title>
+      <pubDate>Wed, 25 Nov 2026 11:33:21 +0700</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Icon ứng dụng mới.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.1/water-fcp-backport-0.1.1.zip"
+        length="2918922"
+        type="application/octet-stream"
+        sparkle:edSignature="NFuUO9kUIFu0EWtIKyetg+JnFP2JSFv+dDjzD+a07X50vaX8ShHvZJ2XopOGymeErUSI6E1Mz2/0LUlVdAGuAw=="/>
+    </item>
+    <item>
       <title>Version 0.1.0</title>
       <pubDate>Wed, 25 Nov 2026 10:30:51 +0700</pubDate>
       <sparkle:version>1</sparkle:version>

@@ -1,5 +1,11 @@
 # CHANGELOG — WATER FCP BACKPORT
 
+## 0.1.1 (build 2) — 2026-11-25
+
+- Icon ứng dụng mới.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.1/water-fcp-backport-0.1.1.zip
+
 ## 0.1.0 (build 1) — 2026-11-25
 
 - Bản đầu: hạ version FCPXML theo DTD của bản FCP đích (đọc trong Final Cut Pro.app), kiểm tra bằng xmllint.
