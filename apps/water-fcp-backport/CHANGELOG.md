@@ -1,5 +1,12 @@
 # CHANGELOG — WATER FCP BACKPORT
 
+## 0.1.4 (build 5) — 2026-11-25
+
+- Sửa giao diện: đổi lựa chọn đôi khi làm mất thanh nút trên cùng (Kiểm tra cập nhật / Nhận gói) và nút Tạo gói.
+  Nay hai thanh này luôn cố định, phần giữa cuộn được.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.4/water-fcp-backport-0.1.4.zip
+
 ## 0.1.3 (build 4) — 2026-11-25
 
 - Sửa cảnh báo "Could not parse DTD" khi kiểm tra file: DTD của Final Cut gọi file phụ, mà đường dẫn

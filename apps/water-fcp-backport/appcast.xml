@@ -5,6 +5,22 @@
   <channel>
     <title>WATER FCP BACKPORT</title>
     <item>
+      <title>Version 0.1.4</title>
+      <pubDate>Wed, 25 Nov 2026 17:28:24 +0700</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Sửa giao diện: đổi lựa chọn đôi khi làm mất thanh nút trên cùng (Kiểm tra cập nhật / Nhận gói) và nút Tạo gói.</li>
+</ul>
+<p>  Nay hai thanh này luôn cố định, phần giữa cuộn được.</p>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.4/water-fcp-backport-0.1.4.zip"
+        length="2941299"
+        type="application/octet-stream"
+        sparkle:edSignature="wgXBTi6LXqZ21ZoPY3vUDkJZox25l/mUU5Jfoh20eqPmNLr6oDwd3snYMB/PuIawE1tZFOce9s0Ye3MWkouODw=="/>
+    </item>
+    <item>
       <title>Version 0.1.3</title>
       <pubDate>Wed, 25 Nov 2026 17:24:36 +0700</pubDate>
       <sparkle:version>4</sparkle:version>

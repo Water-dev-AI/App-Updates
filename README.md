@@ -55,4 +55,4 @@ thư mục `GitHub-Backup/App-Updates/`. Script và hướng dẫn: `tools/googl
 | [worldmove-sync](apps/worldmove-sync/) | macOS 14+ (Apple Silicon) | 1.23.1 (120) | Sparkle 2 |
 | [water-bar](apps/water-bar/) | macOS 13+ (Universal) | 1.4.3 (26) | Sparkle 2 |
 | [simglobe-business](apps/simglobe-business/) | macOS 14+ (Apple Silicon + Intel) | 1.2.0 (4) | Sparkle 2 |
-| [water-fcp-backport](apps/water-fcp-backport/) | macOS 12+ (Intel + Apple Silicon) | 0.1.3 (4) | Sparkle 2 |
+| [water-fcp-backport](apps/water-fcp-backport/) | macOS 12+ (Intel + Apple Silicon) | 0.1.4 (5) | Sparkle 2 |
