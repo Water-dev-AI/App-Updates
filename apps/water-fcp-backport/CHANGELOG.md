@@ -1,5 +1,13 @@
 # CHANGELOG — WATER FCP BACKPORT
 
+## 0.1.2 (build 3) — 2026-11-25
+
+- Sửa lỗi Final Cut báo "DTD version is not recognized": khi bấm "Nhận gói…", app đọc Final Cut trên máy nhận,
+  nếu file mới hơn mức máy đó đọc được thì tự hạ xuống đúng mức rồi mới mở (file gốc giữ nguyên).
+- Nhật ký hiện bản Final Cut trên máy và version FCPXML tối đa nó đọc được.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.2/water-fcp-backport-0.1.2.zip
+
 ## 0.1.1 (build 2) — 2026-11-25
 
 - Icon ứng dụng mới.

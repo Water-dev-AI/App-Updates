@@ -5,6 +5,25 @@
   <channel>
     <title>WATER FCP BACKPORT</title>
     <item>
+      <title>Version 0.1.2</title>
+      <pubDate>Wed, 25 Nov 2026 17:23:07 +0700</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Sửa lỗi Final Cut báo "DTD version is not recognized": khi bấm "Nhận gói…", app đọc Final Cut trên máy nhận,</li>
+</ul>
+<p>  nếu file mới hơn mức máy đó đọc được thì tự hạ xuống đúng mức rồi mới mở (file gốc giữ nguyên).</p>
+<ul>
+<li>Nhật ký hiện bản Final Cut trên máy và version FCPXML tối đa nó đọc được.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.2/water-fcp-backport-0.1.2.zip"
+        length="2925648"
+        type="application/octet-stream"
+        sparkle:edSignature="2vGYub0WUiqj2a/swF5qiD5BLOlq1PdLdwL0kUkWKLXSy7UzzGL4ydCuw+nsRMD1Ze2I0OfwB2cdGNBQ1vQqBA=="/>
+    </item>
+    <item>
       <title>Version 0.1.1</title>
       <pubDate>Wed, 25 Nov 2026 11:33:21 +0700</pubDate>
       <sparkle:version>2</sparkle:version>
