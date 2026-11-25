@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sparkle appcast cho WATER FCP BACKPORT. Bản mới nhất đặt TRÊN CÙNG. Được cập nhật tự động bởi
+     GitHub Actions của repo Claude-Project-all (projects/water-fcp-backport). Không sửa tay chữ ký/length. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>WATER FCP BACKPORT</title>
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Wed, 25 Nov 2026 10:30:51 +0700</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Bản đầu: hạ version FCPXML theo DTD của bản FCP đích (đọc trong Final Cut Pro.app), kiểm tra bằng xmllint.</li>
+<li>Gói setting 3 giây (video + audio) để Copy → Paste Attributes; đóng gói thư mục + zip + hướng dẫn.</li>
+<li>Hạ version toàn bộ XML; bên nhận đặt media đúng chỗ và mở trong FCP; liệt kê plugin cần cài.</li>
+<li>Cập nhật một chạm (Sparkle): nút "Kiểm tra cập nhật", tự kiểm tra mỗi ngày.</li>
+<li>Bản universal (Intel + Apple Silicon), macOS 12+.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.0/water-fcp-backport-0.1.0.zip"
+        length="1550710"
+        type="application/octet-stream"
+        sparkle:edSignature="NjEvIQ1rJIAQRzXsbEVHdMBXAFcXBPdNMWbr2eDmoL793jOC9KYNXblzOsRViYNtUXtsf/Sw28e6QqqDM5a8AQ=="/>
+    </item>
+  </channel>
+</rss>
