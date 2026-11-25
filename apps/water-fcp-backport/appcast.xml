@@ -5,6 +5,25 @@
   <channel>
     <title>WATER FCP BACKPORT</title>
     <item>
+      <title>Version 0.1.3</title>
+      <pubDate>Wed, 25 Nov 2026 17:24:36 +0700</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Sửa cảnh báo "Could not parse DTD" khi kiểm tra file: DTD của Final Cut gọi file phụ, mà đường dẫn</li>
+</ul>
+<p>  "Final Cut Pro.app" có dấu cách → nay chép DTD sang thư mục tạm trước khi kiểm tra.</p>
+<ul>
+<li>Đọc được DTD có file phụ (SYSTEM entity) khi hạ version.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.3/water-fcp-backport-0.1.3.zip"
+        length="2931873"
+        type="application/octet-stream"
+        sparkle:edSignature="BaSnJ5ljRnsDjMeuLvNsTfxkdICHpllg3YL+3j1F06UQOGsus8RJEtZR7tkB4WIodiTNRW+9QCn1AOTuC11hCQ=="/>
+    </item>
+    <item>
       <title>Version 0.1.2</title>
       <pubDate>Wed, 25 Nov 2026 17:23:07 +0700</pubDate>
       <sparkle:version>3</sparkle:version>

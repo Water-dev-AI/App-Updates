@@ -1,5 +1,13 @@
 # CHANGELOG — WATER FCP BACKPORT
 
+## 0.1.3 (build 4) — 2026-11-25
+
+- Sửa cảnh báo "Could not parse DTD" khi kiểm tra file: DTD của Final Cut gọi file phụ, mà đường dẫn
+  "Final Cut Pro.app" có dấu cách → nay chép DTD sang thư mục tạm trước khi kiểm tra.
+- Đọc được DTD có file phụ (SYSTEM entity) khi hạ version.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.3/water-fcp-backport-0.1.3.zip
+
 ## 0.1.2 (build 3) — 2026-11-25
 
 - Sửa lỗi Final Cut báo "DTD version is not recognized": khi bấm "Nhận gói…", app đọc Final Cut trên máy nhận,
