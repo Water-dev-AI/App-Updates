@@ -5,6 +5,22 @@
   <channel>
     <title>WATER IMAGE GENERATOR</title>
     <item>
+      <title>Version 2.12.3</title>
+      <pubDate>Thu, 26 Nov 2026 16:20:07 +0700</pubDate>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>2.12.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Sửa lỗi app tự thoát ("quit unexpectedly") khi đang chạy lô trên macOS 27.</strong> Nguyên nhân (từ báo cáo crash): bước QC đọc chữ trên ảnh (OCR của macOS) gặp lỗi và trên macOS 27 báo lỗi hai lần cho cùng một ảnh; app xử lý cả hai lần nên Swift dừng app ngay. Nay lần báo thứ hai bị bỏ qua, app không còn thoát.</li>
+<li>OCR lỗi thì tự thử lại một lần; vẫn lỗi thì shot được đánh dấu "Cần xem lại" (ảnh vẫn lưu trong folder ngày, tag đỏ) như trước, và log ghi rõ lý do lỗi QC.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.12.3/water-image-generator-2.12.3.zip"
+        length="4223890"
+        type="application/octet-stream"
+        sparkle:edSignature="mcbatY9RlA9nI7twP6IibNpdVRZ74JclrhA+7UdKLi2cEC1ZFV1u+3a2uyGTOIT3VVc4uAyrcM7m5s/pf3MqDQ=="/>
+    </item>
+    <item>
       <title>Version 2.12.2</title>
       <pubDate>Sun, 22 Nov 2026 22:21:15 +0700</pubDate>
       <sparkle:version>44</sparkle:version>

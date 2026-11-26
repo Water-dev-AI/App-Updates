@@ -1,5 +1,12 @@
 # CHANGELOG — WATER IMAGE GENERATOR
 
+## 2.12.3 (build 45) — 2026-11-26
+
+- **Sửa lỗi app tự thoát ("quit unexpectedly") khi đang chạy lô trên macOS 27.** Nguyên nhân (từ báo cáo crash): bước QC đọc chữ trên ảnh (OCR của macOS) gặp lỗi và trên macOS 27 báo lỗi hai lần cho cùng một ảnh; app xử lý cả hai lần nên Swift dừng app ngay. Nay lần báo thứ hai bị bỏ qua, app không còn thoát.
+- OCR lỗi thì tự thử lại một lần; vẫn lỗi thì shot được đánh dấu "Cần xem lại" (ảnh vẫn lưu trong folder ngày, tag đỏ) như trước, và log ghi rõ lý do lỗi QC.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/tag/water-image-generator-v2.12.3
+
 ## 2.12.2 (build 44) — 2026-11-22
 
 - **Không còn bị macOS đòi mật khẩu Keychain** ("WATER IMAGE GENERATOR wants to use … Khóa chính WebCrypto … in your keychain") sau khi cập nhật. Nguyên nhân: khung ChatGPT/Gemini/Grok (WebKit) cất khoá mã hoá trong Keychain, mà app chưa có chữ ký cố định nên mỗi bản cập nhật macOS coi là app khác và hỏi lại mật khẩu. Nay app tự cấp khoá này cho WebKit (lưu trong `~/Library/Application Support/local.newsvisual.ImageChatGPTApp/webcrypto-master-key.bin`, chỉ tài khoản máy đọc được), WebKit không đụng Keychain nữa.
