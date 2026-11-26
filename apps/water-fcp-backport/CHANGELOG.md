@@ -1,5 +1,15 @@
 # CHANGELOG — WATER FCP BACKPORT
 
+## 0.1.6 (build 7) — 2026-11-26
+
+- Gửi thẳng qua mạng: mỗi máy có một **mã bí mật** (mục 4 trong app, nút "Copy mã"). Người gửi "Thêm máy…" bằng mã
+  của máy nhận, kéo thả XML, bấm "Gửi cho …" — không cần tạo folder/zip.
+- Máy nhận (đang mở app) kiểm tra gói mới mỗi 30 giây: hiện thông báo macOS, icon Dock nhảy + số gói, nút
+  "📥 Nhận gói mới" nhấp nháy. Bấm vào → app tự tạo media 3s, Final Cut tạo library "WFB Settings".
+- Gói được mã hoá (AES-GCM) bằng mã của máy nhận trước khi qua dịch vụ chuyển tin ntfy.sh; giữ khoảng 12 giờ.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.6/water-fcp-backport-0.1.6.zip
+
 ## 0.1.5 (build 6) — 2026-11-26
 
 - "Nhận gói…": Final Cut tự tạo library trắng "WFB Settings" (~/Movies/WFB Settings.fcpbundle) chứa các clip 3s,

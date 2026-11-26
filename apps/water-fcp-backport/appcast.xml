@@ -5,6 +5,29 @@
   <channel>
     <title>WATER FCP BACKPORT</title>
     <item>
+      <title>Version 0.1.6</title>
+      <pubDate>Thu, 26 Nov 2026 10:05:41 +0700</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Gửi thẳng qua mạng: mỗi máy có một <strong>mã bí mật</strong> (mục 4 trong app, nút "Copy mã"). Người gửi "Thêm máy…" bằng mã</li>
+</ul>
+<p>  của máy nhận, kéo thả XML, bấm "Gửi cho …" — không cần tạo folder/zip.</p>
+<ul>
+<li>Máy nhận (đang mở app) kiểm tra gói mới mỗi 30 giây: hiện thông báo macOS, icon Dock nhảy + số gói, nút</li>
+</ul>
+<p>  "📥 Nhận gói mới" nhấp nháy. Bấm vào → app tự tạo media 3s, Final Cut tạo library "WFB Settings".</p>
+<ul>
+<li>Gói được mã hoá (AES-GCM) bằng mã của máy nhận trước khi qua dịch vụ chuyển tin ntfy.sh; giữ khoảng 12 giờ.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.6/water-fcp-backport-0.1.6.zip"
+        length="3134924"
+        type="application/octet-stream"
+        sparkle:edSignature="j5AE2uZ8O+9YBb5Vww4gviCvA5csozqZ5AIRgs6C4LAjPARZeJ29Qt5IzP1rAGs8hEsG4FwJdFdrKlSTskDjBw=="/>
+    </item>
+    <item>
       <title>Version 0.1.5</title>
       <pubDate>Thu, 26 Nov 2026 08:49:21 +0700</pubDate>
       <sparkle:version>6</sparkle:version>
