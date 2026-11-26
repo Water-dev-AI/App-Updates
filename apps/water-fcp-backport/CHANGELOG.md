@@ -1,5 +1,13 @@
 # CHANGELOG — WATER FCP BACKPORT
 
+## 0.1.5 (build 6) — 2026-11-26
+
+- "Nhận gói…": Final Cut tự tạo library trắng "WFB Settings" (~/Movies/WFB Settings.fcpbundle) chứa các clip 3s,
+  không còn hỏi chọn library. Lần nhận sau thêm event mới vào cùng library đó. Library của editor không bị đụng tới.
+  Editor mở library này cạnh library của mình → copy clip ⚙ → Paste Attributes.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-fcp-backport-v0.1.5/water-fcp-backport-0.1.5.zip
+
 ## 0.1.4 (build 5) — 2026-11-25
 
 - Sửa giao diện: đổi lựa chọn đôi khi làm mất thanh nút trên cùng (Kiểm tra cập nhật / Nhận gói) và nút Tạo gói.
