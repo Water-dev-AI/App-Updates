@@ -5,6 +5,22 @@
   <channel>
     <title>WATER QUICK COPY</title>
     <item>
+      <title>Version 1.2.1</title>
+      <pubDate>Thu, 26 Nov 2026 09:53:01 +0700</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>Sửa lỗi</h4>
+<ul>
+<li>Bỏ tooltip "WATER QUICK COPY" hiện treo mãi khi rê chuột vào icon menu bar trên macOS mới. VoiceOver vẫn đọc tên app.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-quick-copy-v1.2.1/water-quick-copy-1.2.1.zip"
+        length="3210095"
+        type="application/octet-stream"
+        sparkle:edSignature="9pGW8eC4sMb19HpKlXHkjhGvjkjOQ8Qzk+g2XmEnOeorMg4eyDm5QCuHmvjTx4dgJmSfiOPF1JmcQgcAfeaoBQ=="/>
+    </item>
+    <item>
       <title>Version 1.2.0</title>
       <pubDate>Mon, 16 Nov 2026 12:03:08 +0700</pubDate>
       <sparkle:version>14</sparkle:version>

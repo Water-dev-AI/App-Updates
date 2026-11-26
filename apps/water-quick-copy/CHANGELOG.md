@@ -1,5 +1,13 @@
 # CHANGELOG — WATER QUICK COPY
 
+## 1.2.1 (build 15) — 2026-11-26
+
+### Sửa lỗi
+
+- Bỏ tooltip "WATER QUICK COPY" hiện treo mãi khi rê chuột vào icon menu bar trên macOS mới. VoiceOver vẫn đọc tên app.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-quick-copy-v1.2.1/water-quick-copy-1.2.1.zip
+
 ## 1.2.0 (build 14) — 2026-11-16
 
 ### Mượt hơn
