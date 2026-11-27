@@ -5,6 +5,23 @@
   <channel>
     <title>Water Data Mirror</title>
     <item>
+      <title>Version 1.8.0</title>
+      <pubDate>Fri, 27 Nov 2026 18:31:22 +0700</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Thêm option mỗi task <strong>Không đồng bộ trong khung giờ</strong> (vd 9:00–17:00, hỗ trợ khung qua nửa đêm như 22:00–06:00). Trong khung giờ đó mọi lượt tự động (realtime, mỗi X giờ, giờ cố định, idle, khởi động app) bị hoãn; hết khung giờ app chạy bù <strong>một lượt</strong> nếu có lượt bị hoãn. Nút <strong>Đồng bộ ngay</strong> vẫn chạy bình thường.</li>
+<li>Nút <strong>Tạm dừng</strong> trong menu thành menu con: <strong>1 giờ, 3 giờ, 5 giờ, Hết hôm nay, Vĩnh viễn (tới khi bấm Tiếp tục)</strong>. Tạm dừng có hạn tự tiếp tục; menu hiện <strong>"Tạm dừng tới HH:mm"</strong>, trạng thái task hiện "Khung giờ không đồng bộ — tới HH:mm" khi đang trong khung.</li>
+<li><code>settings.json</code> cũ đọc được bình thường: khung giờ mặc định tắt, task đang tạm dừng giữ nguyên là tạm dừng vĩnh viễn.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-data-mirror-v1.8.0/water-data-mirror-1.8.0.zip"
+        length="4000866"
+        type="application/octet-stream"
+        sparkle:edSignature="7mGW0NyJy+81ZvE0Jd8SDTICw8ZNzy8KIQf+6G2JJroypLivCHisubl5+FoT1GI1sLS/d+bea44yQJ7gPlJJDg=="/>
+    </item>
+    <item>
       <title>Version 1.7.0</title>
       <pubDate>Sat, 14 Nov 2026 11:07:54 +0700</pubDate>
       <sparkle:version>19</sparkle:version>
