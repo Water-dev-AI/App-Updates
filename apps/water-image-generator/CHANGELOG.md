@@ -1,5 +1,11 @@
 # CHANGELOG — WATER IMAGE GENERATOR
 
+## 2.12.4 (build 46) — 2026-11-27
+
+- **Khung "1. KB mới" mặc định thu gọn còn 5 dòng** để thấy ngay các nút bên dưới mà không phải cuộn. Bấm **Mở rộng** (cạnh số shot) để xem/sửa toàn bộ KB, bấm **Thu gọn** để thu lại. Khi thu gọn vẫn cuộn được bên trong khung.
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/tag/water-image-generator-v2.12.4
+
 ## 2.12.3 (build 45) — 2026-11-26
 
 - **Sửa lỗi app tự thoát ("quit unexpectedly") khi đang chạy lô trên macOS 27.** Nguyên nhân (từ báo cáo crash): bước QC đọc chữ trên ảnh (OCR của macOS) gặp lỗi và trên macOS 27 báo lỗi hai lần cho cùng một ảnh; app xử lý cả hai lần nên Swift dừng app ngay. Nay lần báo thứ hai bị bỏ qua, app không còn thoát.

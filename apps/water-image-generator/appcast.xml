@@ -5,6 +5,21 @@
   <channel>
     <title>WATER IMAGE GENERATOR</title>
     <item>
+      <title>Version 2.12.4</title>
+      <pubDate>Fri, 27 Nov 2026 17:29:12 +0700</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>2.12.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Khung "1. KB mới" mặc định thu gọn còn 5 dòng</strong> để thấy ngay các nút bên dưới mà không phải cuộn. Bấm <strong>Mở rộng</strong> (cạnh số shot) để xem/sửa toàn bộ KB, bấm <strong>Thu gọn</strong> để thu lại. Khi thu gọn vẫn cuộn được bên trong khung.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.12.4/water-image-generator-2.12.4.zip"
+        length="4227627"
+        type="application/octet-stream"
+        sparkle:edSignature="Hs5UqzrrIGeTIw0jvQ3JfH4KBRaLVG6kL7WwrWWCxKq+aj3CmROHdRe/Zt7yRGhxD0ecakrlA7atG6M0njxlBw=="/>
+    </item>
+    <item>
       <title>Version 2.12.3</title>
       <pubDate>Thu, 26 Nov 2026 16:20:07 +0700</pubDate>
       <sparkle:version>45</sparkle:version>
