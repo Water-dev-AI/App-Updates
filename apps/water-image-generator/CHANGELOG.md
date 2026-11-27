@@ -1,5 +1,12 @@
 # CHANGELOG — WATER IMAGE GENERATOR
 
+## 2.12.5 (build 47) — 2026-11-27
+
+- **Sửa lỗi Gemini chỉ nhận dòng đầu của prompt** ("TẠO MỘT ẢNH MINH HỌA HOÀN CHỈNH CHO ĐOẠN TIN SAU.") rồi hỏi lại "Bạn vui lòng gửi nội dung đoạn tin…" thay vì tạo ảnh. Nguyên nhân: ô nhập của Gemini bỏ mất phần sau chỗ xuống dòng đầu tiên khi app nhập prompt nhiều dòng. Nay app kiểm tra ô nhập đã có đủ prompt chưa; thiếu thì nhập lại theo từng dòng.
+- App **không gửi prompt bị cụt** nữa: nếu ô nhập vẫn thiếu nội dung, lượt gửi được tính là lỗi nhập, app mở lại chat và tự thử lại. Log ghi cách nhập và số ký tự (ví dụ "nhập bằng paragraphs 3 812/3 812 ký tự").
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/tag/water-image-generator-v2.12.5
+
 ## 2.12.4 (build 46) — 2026-11-27
 
 - **Khung "1. KB mới" mặc định thu gọn còn 5 dòng** để thấy ngay các nút bên dưới mà không phải cuộn. Bấm **Mở rộng** (cạnh số shot) để xem/sửa toàn bộ KB, bấm **Thu gọn** để thu lại. Khi thu gọn vẫn cuộn được bên trong khung.

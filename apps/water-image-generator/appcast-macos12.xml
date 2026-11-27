@@ -5,6 +5,22 @@
   <channel>
     <title>WATER IMAGE GENERATOR (macOS 12+)</title>
     <item>
+      <title>Version 2.12.5</title>
+      <pubDate>Fri, 27 Nov 2026 17:45:48 +0700</pubDate>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>2.12.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Sửa lỗi Gemini chỉ nhận dòng đầu của prompt</strong> ("TẠO MỘT ẢNH MINH HỌA HOÀN CHỈNH CHO ĐOẠN TIN SAU.") rồi hỏi lại "Bạn vui lòng gửi nội dung đoạn tin…" thay vì tạo ảnh. Nguyên nhân: ô nhập của Gemini bỏ mất phần sau chỗ xuống dòng đầu tiên khi app nhập prompt nhiều dòng. Nay app kiểm tra ô nhập đã có đủ prompt chưa; thiếu thì nhập lại theo từng dòng.</li>
+<li>App <strong>không gửi prompt bị cụt</strong> nữa: nếu ô nhập vẫn thiếu nội dung, lượt gửi được tính là lỗi nhập, app mở lại chat và tự thử lại. Log ghi cách nhập và số ký tự (ví dụ "nhập bằng paragraphs 3 812/3 812 ký tự").</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.12.5/water-image-generator-macos12-2.12.5.zip"
+        length="4274118"
+        type="application/octet-stream"
+        sparkle:edSignature="wV7Irvy9HK1fV609Hc3XoMTZPu/V/AKm4OBBsf1nClGYZkvryvcyASY7xnbqRk81V08ORZ78E84wsNJy28MBBQ=="/>
+    </item>
+    <item>
       <title>Version 2.12.4</title>
       <pubDate>Fri, 27 Nov 2026 17:29:12 +0700</pubDate>
       <sparkle:version>46</sparkle:version>
