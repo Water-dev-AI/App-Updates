@@ -5,6 +5,35 @@
   <channel>
     <title>WATER WINDOW RESTORE</title>
     <item>
+      <title>Version 0.1.2</title>
+      <pubDate>Sat, 28 Nov 2026 11:52:43 +0700</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Kích thước mặc định của luật mới là "Giữ nguyên cỡ" (trước là Full). Luật đã có giữ nguyên như cũ.</li>
+</ul>
+<p>  "Chụp bố cục" vẫn nhận ra cửa sổ đang đúng 1/2, 1/4, 1/3… ; không khớp mẫu nào → Giữ nguyên cỡ.</p>
+<ul>
+<li>Thêm ô "Tự tải bản cập nhật", bật sẵn: app tự tải bản mới và cài khi thoát app.</li>
+<li>Chạy ngầm (chọn trong bảng luật hoặc menu bar): dò app lệch luật mỗi 30 giây — chỉ đọc danh sách cửa sổ, không</li>
+</ul>
+<p>  đụng chuột/phím. Hai chế độ: "chỉ báo app lệch" (menu bar hiện "N lệch") và "tự sửa khi rảnh tay" (mặc định: chỉ sửa</p>
+<p>  khi không chạm chuột/phím ≥ 60 giây, bỏ qua app đang dùng, mỗi app tối đa 1 lần / 10 phút). Có thể tắt.</p>
+<ul>
+<li>Mở một app có luật → tự đưa app đó về chỗ sau ~3 giây (khi chạy ngầm đang bật).</li>
+<li>Máy thức dậy sau khi ngủ → tự khôi phục (theo ô "Tự khôi phục khi cắm màn hình / máy thức dậy").</li>
+<li>"Thêm app" lấy luôn vị trí hiện tại của app (màn hình, Desktop, kích thước) thay vì để mặc định.</li>
+<li>Mỗi dòng luật có nút 📷 "Lấy vị trí hiện tại" để cập nhật một app mà không phải chụp lại toàn bộ.</li>
+<li>"Giữ nguyên cỡ": cửa sổ đã nằm gọn trong màn hình đích thì để nguyên vị trí (trước đây bị kéo vào giữa).</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-window-restore-v0.1.2/water-window-restore-0.1.2.zip"
+        length="2629260"
+        type="application/octet-stream"
+        sparkle:edSignature="Qla3ryVZZr+a3RD9vp/PdVe+oV9ryv4Ewvu14bke5X28DTKtz8de3+jNouuKGWCgEw/E4rO/YCwnDPSICJICCQ=="/>
+    </item>
+    <item>
       <title>Version 0.1.1</title>
       <pubDate>Sat, 28 Nov 2026 11:18:32 +0700</pubDate>
       <sparkle:version>2</sparkle:version>
