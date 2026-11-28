@@ -1,5 +1,12 @@
 # CHANGELOG — WATER IMAGE GENERATOR
 
+## 2.12.6 (build 48) — 2026-11-28
+
+- **Sửa tiếp lỗi Gemini chỉ giữ dòng đầu prompt.** Log 2.12.5 cho thấy app nhập đủ prompt (4 595/4 595 ký tự) nhưng nửa giây sau ô nhập Gemini tự dựng lại nội dung và chỉ còn dòng đầu (49 ký tự), nên shot đi Gemini không bao giờ gửi được. Nay app thử lần lượt nhiều cách nhập, mỗi cách chờ rồi kiểm lại: nhập thường → nhập qua bộ soạn thảo của Gemini → dựng từng đoạn → gõ từng dòng → cuối cùng gộp prompt thành **một dòng** (Gemini luôn giữ dòng đầu). Cách nào chạy được sẽ được dùng trước cho các shot sau.
+- Log ghi từng cách đã thử, ví dụ "nhập bằng insertText 4595/4595 ký tự, sau 450 ms còn 49 | nhập bằng editorAPI 4595/4595 ký tự OK".
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/tag/water-image-generator-v2.12.6
+
 ## 2.12.5 (build 47) — 2026-11-27
 
 - **Sửa lỗi Gemini chỉ nhận dòng đầu của prompt** ("TẠO MỘT ẢNH MINH HỌA HOÀN CHỈNH CHO ĐOẠN TIN SAU.") rồi hỏi lại "Bạn vui lòng gửi nội dung đoạn tin…" thay vì tạo ảnh. Nguyên nhân: ô nhập của Gemini bỏ mất phần sau chỗ xuống dòng đầu tiên khi app nhập prompt nhiều dòng. Nay app kiểm tra ô nhập đã có đủ prompt chưa; thiếu thì nhập lại theo từng dòng.

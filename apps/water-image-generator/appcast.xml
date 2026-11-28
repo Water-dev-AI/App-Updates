@@ -5,6 +5,22 @@
   <channel>
     <title>WATER IMAGE GENERATOR</title>
     <item>
+      <title>Version 2.12.6</title>
+      <pubDate>Sat, 28 Nov 2026 17:48:29 +0700</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>2.12.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li><strong>Sửa tiếp lỗi Gemini chỉ giữ dòng đầu prompt.</strong> Log 2.12.5 cho thấy app nhập đủ prompt (4 595/4 595 ký tự) nhưng nửa giây sau ô nhập Gemini tự dựng lại nội dung và chỉ còn dòng đầu (49 ký tự), nên shot đi Gemini không bao giờ gửi được. Nay app thử lần lượt nhiều cách nhập, mỗi cách chờ rồi kiểm lại: nhập thường → nhập qua bộ soạn thảo của Gemini → dựng từng đoạn → gõ từng dòng → cuối cùng gộp prompt thành <strong>một dòng</strong> (Gemini luôn giữ dòng đầu). Cách nào chạy được sẽ được dùng trước cho các shot sau.</li>
+<li>Log ghi từng cách đã thử, ví dụ "nhập bằng insertText 4595/4595 ký tự, sau 450 ms còn 49 | nhập bằng editorAPI 4595/4595 ký tự OK".</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-image-generator-v2.12.6/water-image-generator-2.12.6.zip"
+        length="4249629"
+        type="application/octet-stream"
+        sparkle:edSignature="YlBI7XAs6C6LDtPVfpzMt9WcDUHIvueT+o7ii57m4RkdG8fyZ63G3YXrPPR5Iql71lv9sjTBGYMG0Xu3QUmUDw=="/>
+    </item>
+    <item>
       <title>Version 2.12.5</title>
       <pubDate>Fri, 27 Nov 2026 17:45:48 +0700</pubDate>
       <sparkle:version>47</sparkle:version>
