@@ -5,6 +5,21 @@
   <channel>
     <title>Water Bar</title>
     <item>
+      <title>Version 1.4.4</title>
+      <pubDate>Sat, 28 Nov 2026 19:47:20 +0700</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>macOS 27: sửa lỗi bấm 💧 mà không thu gọn được khi thanh menu thiếu chỗ. Lúc đó macOS dồn cả vạch │ vào nút », Water Bar không đọc được vị trí │. Giờ Water Bar vẫn thu gọn: icon đang hiện trên thanh menu được giữ, icon nằm trong » ẩn/hiện theo vị trí đã nhớ (bên trái │ thì ẩn).</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/Water-dev-AI/App-Updates/releases/download/water-bar-v1.4.4/water-bar-1.4.4.zip"
+        length="2836514"
+        type="application/octet-stream"
+        sparkle:edSignature="8nwdNCWEuKQp/QHT7soYDqAVQz+8Tg7JI7Vj+tkGWO3VoyqnWK4Nl736icqtVHzH4xpnXlgaDxlr45Rr/getCA=="/>
+    </item>
+    <item>
       <title>Version 1.4.3</title>
       <pubDate>Tue, 24 Nov 2026 17:20:01 +0700</pubDate>
       <sparkle:version>26</sparkle:version>

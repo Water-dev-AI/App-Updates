@@ -1,5 +1,11 @@
 # CHANGELOG — Water Bar
 
+## 1.4.4 (build 27) — 2026-11-28
+
+- macOS 27: sửa lỗi bấm 💧 mà không thu gọn được khi thanh menu thiếu chỗ. Lúc đó macOS dồn cả vạch │ vào nút », Water Bar không đọc được vị trí │. Giờ Water Bar vẫn thu gọn: icon đang hiện trên thanh menu được giữ, icon nằm trong » ẩn/hiện theo vị trí đã nhớ (bên trái │ thì ẩn).
+
+Tải về: https://github.com/Water-dev-AI/App-Updates/releases/download/water-bar-v1.4.4/water-bar-1.4.4.zip
+
 ## 1.4.3 (build 26) — 2026-11-24
 
 - macOS 27: sửa lỗi chú thích (tooltip) bị kẹt trên màn hình sau khi thu gọn. Vạch │ và giọt nước 💧 không còn tooltip trên macOS 27; với app khác (vd KDE Connect), Water Bar chờ tooltip tắt rồi mới ẩn, và nếu vẫn kẹt thì cho app đó hiện lại chốc lát để tự tắt.
